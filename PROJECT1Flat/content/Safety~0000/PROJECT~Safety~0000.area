@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Area xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <PropertyGroup>
+      <SafetyId>536513b2-aee8-40ca-9707-8f57451f1b38</SafetyId>
+      <AdeSafetyVersion>1.0.0.4</AdeSafetyVersion>
+   </PropertyGroup>
+</Area>

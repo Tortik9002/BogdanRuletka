@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataListDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="DataList.xsd" Version="1.2">
+  <DataList Id="c39ba846-d5eb-439f-a6ee-c9e90eea3417" ConfigurationUri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/67de4dd0-864f-4c90-bb3d-cb6a78e0a90b" PlcIdentifier="6cc52810-95e2-42f9-b06a-628e1de0aa14" TargetAttributes="PlcNext,UserManagedComponentInstances,ResourceGlobalPorts" TargetVersion="0/2024.0.0" UICulture="en-US">
+    <Datum Uuid="2c513d57-84ca-449f-9256-59f35f07dabb">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="057a1d6e-8462-4828-8349-5503b9c093cf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>Higher level PLC in RUN</Comment>
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_PLC_RUN</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pndpd1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_PLC_RUN</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2e599e08-4287-446a-a431-825e7a43403a">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="fb992c13-f707-486b-a5aa-7164dd00af1c" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>Connection to Profinet-Controller</Comment>
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_VALID_DATA_CYCLE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pndpd2]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_VALID_DATA_CYCLE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="cc8a369c-1457-4ca6-8929-b14dc4555816">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="56ef40a1-3cbd-4014-95d1-c5222d497bd6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>IOP status of the higher-level control system</Comment>
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_OUTPUT_STATUS_GOOD</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pndpd3]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_OUTPUT_STATUS_GOOD</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="96cefcf3-318a-43fa-a640-023f287c2772">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="c0274557-03b4-47e2-94f3-082dc7642a67" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>IOC status of the higher-level control system</Comment>
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_INPUT_STATUS_GOOD</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=pndpd4]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_INPUT_STATUS_GOOD</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="75879901-d0de-4f85-9a10-2858aa393761">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="3a2aaf55-94b0-49e5-bad5-75ff9189771a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>Process data length</Comment>
+        <DataType>WORD</DataType>
+        <InitValue>WORD#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_DATA_LENGTH</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=pndpd5]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>Bitstring16</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_DATA_LENGTH</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="09712872-78ae-4295-b0bb-21f10ce4f151">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="40dc21b6-fd1e-40d6-9b85-2db04fbdc274" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>Output process data</Comment>
+        <DataType>PND_IO_512</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_OUTPUTS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=pndpd6]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Write</Access>
+        <DataType>Octetstring[512]</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_OUTPUTS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="cfb66f61-230d-4632-b05d-3d260389f50f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="ce007a7c-bef6-4fc0-b7e4-33e501e2f10d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment>Input process data</Comment>
+        <DataType>PND_IO_512</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_S1_INPUTS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=pndpd7]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>Octetstring[512]</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_S1_INPUTS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2b4a922b-82a5-41a4-b783-41287f4223b4">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="5dec5832-ad08-4375-8326-86dfdf37aeef" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>INT</DataType>
+        <InitValue>INT#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PND_IO_DRIVEN_BY_PLC</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=pndpd8]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>Signed16</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PND_IO_DRIVEN_BY_PLC</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="07c3519f-9eb6-446c-8ee7-5d562879f3de">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="fe501b3c-f146-4eba-86d3-dc6d404485af" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=axiod0]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="5648ad75-60ca-42c1-841d-ffe5fe46f13b">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="ceeea56a-1ff6-414b-a290-742c24254c7a" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=axiod1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d8c8764d-ba74-4548-8276-7a28624b483e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="fbf50641-bf64-4061-b843-3b7a8d6ddfa3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_PARAM_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=axiod2]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_PARAM_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a7c3b525-fd6e-4861-9cb3-4e79b08c00c7">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="51223294-f2fb-4f70-a074-e9f02322ab26" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_PARAM_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=axiod3]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_PARAM_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="93d3d055-0246-4ce0-bfea-83ef837486e4">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="7a851ebd-6b70-4b3d-9d10-a00853e6ff01" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_PARAM_2_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=axiod4]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_PARAM_2_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c159f714-62f5-45c4-a065-c7d0c0076e37">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="136cd392-a4de-4ae6-a2d6-c68244ba66c1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_PARAM_2_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=axiod5]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_PARAM_2_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b2f05339-9aee-48ba-87ec-dc093600d54c">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="f54e03e5-3dd8-40f6-9dc6-c1f62643fee7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_PF</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=axiod6]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_PF</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="793a03e7-768b-4f7b-a3f2-25a7819f3f37">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="720b12b5-af17-4a64-9429-477fd507ce91" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_BUS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=axiod7]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_BUS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9a528274-be6e-40c2-a6ad-7f2f7506fe35">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="70a3b76d-c559-40e1-8a9d-708b90b08a3d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_RUN</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=axiod8]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_RUN</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1dc3a44f-a1a7-496a-b29a-48157980d933">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="c504472e-ba95-445b-a1c6-0100e38c4b19" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_ACT</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=axiod9]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_ACT</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="f9d7f978-9ace-4a4a-b62d-01d18e65157f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="d72d2f85-2e7c-4ef6-9029-e8fefb09cc90" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_RDY</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=axiod10]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_RDY</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2ee84ce7-d5eb-4796-9d4c-2096dd0e5a2f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="7985f442-9935-48c2-a9a7-ad87fd2a9015" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_SYSFAIL</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=axiod11]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_SYSFAIL</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d65bb58b-f392-46a2-b8fe-9a3fe06bf51a">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="e61a1f8e-1e17-49f4-b9f2-46e3b7eadc3e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>AXIO_DIAG_STATUS_REG_PW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=axiod12]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_ax">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>AXIO_DIAG_STATUS_REG_PW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1bb43dfd-4619-42df-9f37-95cd539ce5fb">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="debef2dd-d774-4b1d-af51-6c41f2ec93c5" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pdib1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="beda8d97-a47f-4f22-9bee-62632642101c">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="9a1c3ad0-a14e-4041-bf63-47b652557720" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pdib2]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b7eda166-311e-49c4-8dd0-fec2c2827b93">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="a75c6249-80f2-4ab5-9a59-48b33097bb22" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_SYSFAIL</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pdib3]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_SYSFAIL</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="44dcc8fa-e844-4556-883a-e11ac8edaeb8">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="15e9c048-e7b6-415d-a57f-a3e9c5dcd1ce" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_WARN</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=pdib4]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_WARN</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e281a893-7a92-47c7-a8d5-3e1b04e75b9c">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="1d045db8-f0cb-40a0-9af5-1825aa2f891b" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_QUAL</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=pdib5]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_QUAL</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9084f8bf-9342-4768-a981-46c61085b8d5">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="5b7b41f4-dc2a-4de2-a54f-20332c4aa9d2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_USER</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=pdib6]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_USER</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="5ab98d15-319b-40fb-92d8-f95c17ba6b9c">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="7d2f2ffa-0b24-4fa0-ae23-8f75d5a827d2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_PF</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=pdib7]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_PF</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c80b386e-d742-403d-9984-0230282de6b8">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="4d2c7f53-7dad-48b9-921a-b94446f02117" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_BUS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="7" ObjectId="/PDList/PD[@uid=pdib8]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_BUS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1a41f4a5-b662-4a93-801b-95f250af373f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="25bd96c0-6f8b-462e-8a9d-fc139a500f28" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_CTRL</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=pdib9]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_CTRL</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e53ece27-bec5-49eb-8a1c-2f3a3277267e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="b5cea127-f08b-4f02-a220-dba0c3a53dcf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_DTC</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=pdib10]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_DTC</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="780cf320-eae3-4d51-b290-f54055d3fa36">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="abdab619-f2d6-4019-95b6-fcd69c7ece71" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_RUN</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=pdib11]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_RUN</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="6f8e9c55-b99c-4359-bed9-4c1c2f0fb1e2">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="9a3859d3-2834-4226-929c-13e6ab864759" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_ACT</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=pdib12]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_ACT</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="fff98c3c-3fed-4a49-acc9-125976f73efa">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="e736e360-d86b-418b-ba8a-bafb91e828e7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_STATUS_REG_RDY</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=pdib13]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_STATUS_REG_RDY</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="efb446e5-cbe4-4bd2-b950-ff9a0dbcb175">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="90e6b8c9-a944-4a63-af45-1a09648e5707" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_PARAM_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=pdib14]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_PARAM_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="84e8eeeb-9443-44b4-954b-c48b44eadbce">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="fcec1a91-5a8f-4922-a323-a1ea7b0a7a85" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_PARAM_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=pdib15]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_PARAM_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2fd97fda-8375-44cd-918c-79f9c7253b9c">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="1d32dd74-3c2e-4f25-82a8-10ec91b89ea1" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_PARAM_2_REG_HI</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=pdib16]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_PARAM_2_REG_HI</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="e3957956-4d5c-473e-b768-c22a57d1f9dc">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="e9f647b5-c683-4f6d-b820-bcc59edfcbf0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BYTE</DataType>
+        <InitValue>BYTE#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IB_DIAG_PARAM_2_REG_LOW</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=pdib17]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_8">
+        <Access>Read</Access>
+        <DataType>Bitstring8</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>IB_DIAG_PARAM_2_REG_LOW</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2034aa80-ea9e-439a-891b-f8d6ad48c137">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="3db910b8-fbc3-4856-8b2f-48247e1a6272" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>ESM_DAT</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>ESM_DATA</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=pdesm1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_1">
+        <Access>Read</Access>
+        <DataType>ESM_DAT</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>ESM_DATA</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b608b302-2899-4de2-ae28-c0258d455288">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="8583f665-ca45-419c-be83-e2cbced62445" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>RTC_TYPE</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>RTC</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=pddi1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_1">
+        <Access>Read</Access>
+        <DataType>RTC_TYPE</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>RTC</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="76cce098-1da0-456b-99f2-4e6b90e8b0ea">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="28257654-0733-4602-92fd-32a05b0ad6cf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>DEVICE_STATE_2152_TYPE</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>DEVICE_STATE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=pddi2]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_1">
+        <Access>Read</Access>
+        <DataType>DEVICE_STATE_2152_TYPE</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>DEVICE_STATE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="05a57613-c7ec-4bb4-870e-3a9a37cb47fc">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="1543124a-9a30-4b21-ac8a-0d01f91e39db" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>PARTITION_INFO</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>USER_PARTITION</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=pddi4]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_1">
+        <Access>Read</Access>
+        <DataType>PARTITION_INFO</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>USER_PARTITION</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="3b6c20ef-6fd5-4e8c-8fc9-6a3ae214b44f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="20b5d5b9-3694-4e4d-9509-23ae7a2257f7" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_SYSTEM_BF</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="8" ObjectId="/PDList/PD[@uid=pncpd1]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_SYSTEM_BF</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1a5413c4-7c15-4030-bb4b-1080d93db033">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="633005d7-ac6f-4a40-8c10-a15f9a300b09" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_SYSTEM_SF</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="9" ObjectId="/PDList/PD[@uid=pncpd2]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_SYSTEM_SF</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="692942ed-80be-4014-8d46-54e5c693d02e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="6661c5b4-4cd7-4d11-ad12-f52b82064ca5" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_MAINTENANCE_DEMANDED</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="10" ObjectId="/PDList/PD[@uid=pncpd3]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_MAINTENANCE_DEMANDED</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="9738fe52-f0b9-4b7d-9a61-c681a00feec7">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="00d9085a-799e-448e-b798-5b37e66e9308" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_MAINTENANCE_REQUIRED</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="11" ObjectId="/PDList/PD[@uid=pncpd4]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_MAINTENANCE_REQUIRED</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="c4d69dfe-ef80-4fd9-889f-300358d87090">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="a0aa16e8-6d66-4f17-b3bd-93272ca0dd92" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>WORD</DataType>
+        <InitValue>WORD#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_CONFIG_STATUS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="12" ObjectId="/PDList/PD[@uid=pncpd5]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>Bitstring16</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_CONFIG_STATUS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="ac90c893-3d1f-4249-8b9f-803caf5d011e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="97749968-47f9-4dbf-a24b-4d8d61ec767d" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_CONFIG_STATUS_ACTIVE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="13" ObjectId="/PDList/PD[@uid=pncpd6]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_CONFIG_STATUS_ACTIVE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="cbcc2ae9-a862-4442-8210-687d4fcf96be">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="af4310cf-fb47-47f4-94f4-148243f0f917" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_CONFIG_STATUS_READY</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="14" ObjectId="/PDList/PD[@uid=pncpd7]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_CONFIG_STATUS_READY</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="2c1aa74e-8564-4913-a53b-301b9ff77bf0">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="8a23e84a-c0b9-4ef6-909d-9988774ee4bf" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_CONFIG_STATUS_CFG_FAULT</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="15" ObjectId="/PDList/PD[@uid=pncpd8]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Read</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_CONFIG_STATUS_CFG_FAULT</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="d7050133-5e02-4178-a668-5fe778eef75a">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="9159f363-0203-449d-90cf-2ea79a4a2705" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PNIO_FORCE_FAILSAFE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="16" ObjectId="/PDList/PD[@uid=pncpd9]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_4">
+        <Access>Write</Access>
+        <DataType>BOOL</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>PNIO_FORCE_FAILSAFE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="3969f852-eba3-4300-892e-078e373f91a7">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="002cdc1c-c9d5-4570-8bf8-872633ed93a6" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address>%MW1.30000</Address>
+        <Comment />
+        <DataType>UINT</DataType>
+        <InitValue>UINT#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>IP_ACTIVE_SOCKETS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+        <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="1ebfd6ab-53c6-4979-bbcb-1e6b75ae5161">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="208ea208-5134-4b13-b757-db03dc5eb9e0" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address>%MW1.30100</Address>
+        <Comment />
+        <DataType>UINT</DataType>
+        <InitValue>UINT#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>TLS_ACTIVE_SOCKETS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+        <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="7312f7a5-d071-4192-9948-fdca1ade4e09">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="aa64671b-7308-4a60-8fff-9ca9773684f2" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>HMI_STATUS_TYPE2</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>HMI_STATUS2</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=hmipd001]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_3">
+        <Access>Read</Access>
+        <DataType>HMI_STATUS_TYPE2</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>HMI_STATUS2</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b095f37b-8fef-43c4-89ad-00d3a8eae311">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="785ed15c-3e47-4b39-8e82-e9816103730e" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>HMI_CONTROL_TYPE</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>HMI_CONTROL</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=hmipd002]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_3">
+        <Access>Write</Access>
+        <DataType>HMI_CONTROL_TYPE</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>HMI_CONTROL</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="3e07dcde-e58a-45c6-a6df-02a4a4aeb8c5">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="555f5e60-4701-4cc4-ac74-8d06f0366aad" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_INPUTS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="0" ObjectId="/PDList/PD[@uid=eip001]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_INPUTS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="a8cb8243-166d-486c-9096-1f08b3b31db3">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="721ade9a-8ab0-4ac6-bdd4-21f7010d30fd" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <InitValue />
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_OUTPUTS</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="1" ObjectId="/PDList/PD[@uid=eip002]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Write</Access>
+        <DataType>EIPD_IO_ARRAY</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_OUTPUTS</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="89d8967a-12bd-44ea-b0aa-4907d8e07f92">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="784a7852-a2cc-4604-9bef-0dbfcbb9ef06" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_VALID_DATA_CYCLE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="2" ObjectId="/PDList/PD[@uid=eip003]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>Boolean</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_VALID_DATA_CYCLE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="230b483f-66b0-4f40-b96c-fac6307c1008">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="32622f4c-5d4c-4d1d-b7f8-238fbef9a0e3" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_PEER_IDLE</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="3" ObjectId="/PDList/PD[@uid=eip004]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>Boolean</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_PEER_IDLE</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="11a95cfa-6876-485e-981c-468b0880f84e">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="f650330a-c12c-4a35-8f48-b5aa9b529ac4" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>BOOL</DataType>
+        <InitValue>FALSE</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_PEER_RUN</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="4" ObjectId="/PDList/PD[@uid=eip005]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>Boolean</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_PEER_RUN</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="645b79e6-1313-412e-b9e8-de7630c3b08d">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="7101f920-7771-4426-af71-e53e939c3f35" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>WORD</DataType>
+        <InitValue>WORD#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_OUTPUTS_LENGTH</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="5" ObjectId="/PDList/PD[@uid=eip006]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>Bitstring16</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_OUTPUTS_LENGTH</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="b39aa0eb-448c-4504-bc88-0a1d30be096b">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="0adda265-5c6d-4b67-9b0b-c05c56660e46" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address />
+        <Comment />
+        <DataType>WORD</DataType>
+        <InitValue>WORD#16#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>EIPD_INPUTS_LENGTH</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+      </Role>
+      <Role TypeName="ProcessDatum" ObjectIndex="6" ObjectId="/PDList/PD[@uid=eip007]" SourceId="6cc52810-95e2-42f9-b06a-628e1de0aa14.L7_7">
+        <Access>Read</Access>
+        <DataType>Bitstring16</DataType>
+        <IsSafe>False</IsSafe>
+        <Label>EIPD_INPUTS_LENGTH</Label>
+        <Offset />
+        <Constraint TypeName="Ade.DataList.Constraints.Unsplitable, Ade.DataListImpl" Parameters="Variable|ProcessDatum" />
+      </Role>
+    </Datum>
+    <Datum Uuid="72a5fbb9-6247-4c2c-8ca2-1ee5ba8e370f">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="9839fcda-90e3-4160-b18d-9641e0685eae" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3">
+        <Address>%ML1.10000</Address>
+        <Comment />
+        <DataType>ULINT</DataType>
+        <InitValue>ULINT#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>PLC_CRC_PRJ</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.Undeletable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Comment,IsOpc,IsHmi,IsProficloud" />
+        <Constraint TypeName="Ade.DataList.Constraints.Unconnectable, Ade.DataListImpl" Parameters="ProcessDatum" />
+      </Role>
+    </Datum>
+    <RoleGroupList RoleTypeName="Variable">
+      <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False" />
+      <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/720357a4-f983-4442-94d0-2d563e2276e3" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
+        <RoleDatumUuid>2c513d57-84ca-449f-9256-59f35f07dabb</RoleDatumUuid>
+        <RoleDatumUuid>2e599e08-4287-446a-a431-825e7a43403a</RoleDatumUuid>
+        <RoleDatumUuid>cc8a369c-1457-4ca6-8929-b14dc4555816</RoleDatumUuid>
+        <RoleDatumUuid>96cefcf3-318a-43fa-a640-023f287c2772</RoleDatumUuid>
+        <RoleDatumUuid>75879901-d0de-4f85-9a10-2858aa393761</RoleDatumUuid>
+        <RoleDatumUuid>09712872-78ae-4295-b0bb-21f10ce4f151</RoleDatumUuid>
+        <RoleDatumUuid>cfb66f61-230d-4632-b05d-3d260389f50f</RoleDatumUuid>
+        <RoleDatumUuid>2b4a922b-82a5-41a4-b783-41287f4223b4</RoleDatumUuid>
+        <RoleDatumUuid>07c3519f-9eb6-446c-8ee7-5d562879f3de</RoleDatumUuid>
+        <RoleDatumUuid>5648ad75-60ca-42c1-841d-ffe5fe46f13b</RoleDatumUuid>
+        <RoleDatumUuid>d8c8764d-ba74-4548-8276-7a28624b483e</RoleDatumUuid>
+        <RoleDatumUuid>a7c3b525-fd6e-4861-9cb3-4e79b08c00c7</RoleDatumUuid>
+        <RoleDatumUuid>93d3d055-0246-4ce0-bfea-83ef837486e4</RoleDatumUuid>
+        <RoleDatumUuid>c159f714-62f5-45c4-a065-c7d0c0076e37</RoleDatumUuid>
+        <RoleDatumUuid>b2f05339-9aee-48ba-87ec-dc093600d54c</RoleDatumUuid>
+        <RoleDatumUuid>793a03e7-768b-4f7b-a3f2-25a7819f3f37</RoleDatumUuid>
+        <RoleDatumUuid>9a528274-be6e-40c2-a6ad-7f2f7506fe35</RoleDatumUuid>
+        <RoleDatumUuid>1dc3a44f-a1a7-496a-b29a-48157980d933</RoleDatumUuid>
+        <RoleDatumUuid>f9d7f978-9ace-4a4a-b62d-01d18e65157f</RoleDatumUuid>
+        <RoleDatumUuid>2ee84ce7-d5eb-4796-9d4c-2096dd0e5a2f</RoleDatumUuid>
+        <RoleDatumUuid>d65bb58b-f392-46a2-b8fe-9a3fe06bf51a</RoleDatumUuid>
+        <RoleDatumUuid>1bb43dfd-4619-42df-9f37-95cd539ce5fb</RoleDatumUuid>
+        <RoleDatumUuid>beda8d97-a47f-4f22-9bee-62632642101c</RoleDatumUuid>
+        <RoleDatumUuid>b7eda166-311e-49c4-8dd0-fec2c2827b93</RoleDatumUuid>
+        <RoleDatumUuid>44dcc8fa-e844-4556-883a-e11ac8edaeb8</RoleDatumUuid>
+        <RoleDatumUuid>e281a893-7a92-47c7-a8d5-3e1b04e75b9c</RoleDatumUuid>
+        <RoleDatumUuid>9084f8bf-9342-4768-a981-46c61085b8d5</RoleDatumUuid>
+        <RoleDatumUuid>5ab98d15-319b-40fb-92d8-f95c17ba6b9c</RoleDatumUuid>
+        <RoleDatumUuid>c80b386e-d742-403d-9984-0230282de6b8</RoleDatumUuid>
+        <RoleDatumUuid>1a41f4a5-b662-4a93-801b-95f250af373f</RoleDatumUuid>
+        <RoleDatumUuid>e53ece27-bec5-49eb-8a1c-2f3a3277267e</RoleDatumUuid>
+        <RoleDatumUuid>780cf320-eae3-4d51-b290-f54055d3fa36</RoleDatumUuid>
+        <RoleDatumUuid>6f8e9c55-b99c-4359-bed9-4c1c2f0fb1e2</RoleDatumUuid>
+        <RoleDatumUuid>fff98c3c-3fed-4a49-acc9-125976f73efa</RoleDatumUuid>
+        <RoleDatumUuid>efb446e5-cbe4-4bd2-b950-ff9a0dbcb175</RoleDatumUuid>
+        <RoleDatumUuid>84e8eeeb-9443-44b4-954b-c48b44eadbce</RoleDatumUuid>
+        <RoleDatumUuid>2fd97fda-8375-44cd-918c-79f9c7253b9c</RoleDatumUuid>
+        <RoleDatumUuid>e3957956-4d5c-473e-b768-c22a57d1f9dc</RoleDatumUuid>
+        <RoleDatumUuid>2034aa80-ea9e-439a-891b-f8d6ad48c137</RoleDatumUuid>
+        <RoleDatumUuid>b608b302-2899-4de2-ae28-c0258d455288</RoleDatumUuid>
+        <RoleDatumUuid>76cce098-1da0-456b-99f2-4e6b90e8b0ea</RoleDatumUuid>
+        <RoleDatumUuid>05a57613-c7ec-4bb4-870e-3a9a37cb47fc</RoleDatumUuid>
+        <RoleDatumUuid>3b6c20ef-6fd5-4e8c-8fc9-6a3ae214b44f</RoleDatumUuid>
+        <RoleDatumUuid>1a5413c4-7c15-4030-bb4b-1080d93db033</RoleDatumUuid>
+        <RoleDatumUuid>692942ed-80be-4014-8d46-54e5c693d02e</RoleDatumUuid>
+        <RoleDatumUuid>9738fe52-f0b9-4b7d-9a61-c681a00feec7</RoleDatumUuid>
+        <RoleDatumUuid>c4d69dfe-ef80-4fd9-889f-300358d87090</RoleDatumUuid>
+        <RoleDatumUuid>ac90c893-3d1f-4249-8b9f-803caf5d011e</RoleDatumUuid>
+        <RoleDatumUuid>cbcc2ae9-a862-4442-8210-687d4fcf96be</RoleDatumUuid>
+        <RoleDatumUuid>2c1aa74e-8564-4913-a53b-301b9ff77bf0</RoleDatumUuid>
+        <RoleDatumUuid>d7050133-5e02-4178-a668-5fe778eef75a</RoleDatumUuid>
+        <RoleDatumUuid>3969f852-eba3-4300-892e-078e373f91a7</RoleDatumUuid>
+        <RoleDatumUuid>1ebfd6ab-53c6-4979-bbcb-1e6b75ae5161</RoleDatumUuid>
+        <RoleDatumUuid>7312f7a5-d071-4192-9948-fdca1ade4e09</RoleDatumUuid>
+        <RoleDatumUuid>b095f37b-8fef-43c4-89ad-00d3a8eae311</RoleDatumUuid>
+        <RoleDatumUuid>3e07dcde-e58a-45c6-a6df-02a4a4aeb8c5</RoleDatumUuid>
+        <RoleDatumUuid>a8cb8243-166d-486c-9096-1f08b3b31db3</RoleDatumUuid>
+        <RoleDatumUuid>89d8967a-12bd-44ea-b0aa-4907d8e07f92</RoleDatumUuid>
+        <RoleDatumUuid>230b483f-66b0-4f40-b96c-fac6307c1008</RoleDatumUuid>
+        <RoleDatumUuid>11a95cfa-6876-485e-981c-468b0880f84e</RoleDatumUuid>
+        <RoleDatumUuid>645b79e6-1313-412e-b9e8-de7630c3b08d</RoleDatumUuid>
+        <RoleDatumUuid>b39aa0eb-448c-4504-bc88-0a1d30be096b</RoleDatumUuid>
+        <RoleDatumUuid>72a5fbb9-6247-4c2c-8ca2-1ee5ba8e370f</RoleDatumUuid>
+      </RoleGroup>
+    </RoleGroupList>
+    <RoleGroupList RoleTypeName="SafetyVariable" />
+  </DataList>
+</DataListDocument>
