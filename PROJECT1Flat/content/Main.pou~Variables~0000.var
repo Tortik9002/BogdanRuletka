@@ -1,9 +1,10 @@
 { CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
 
-VAR
-    x1_y1 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0aefda20-c8d4-4e31-b2a9-5ccf96fa38e1')}; (*координаты начала измерения *)
-    x2_y2 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f8ac108f-45d3-4bcf-9dd1-57b71f577375')}; (*координаты конца измерения *)
-    distancePx : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7efe5e10-216b-4b60-a300-cbd171f59890')}; (*результат в пикселях *)
-    distanceCm : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d3f66f1a-1db6-4720-a3bd-17bfde7a255f')}; (*результат в сантиметрах*)
-    scaleFactor : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('376509d9-e5c6-43e0-9d4a-998c03fe84bf')}; (*коэффициент сколько пикселей в см*)
+VAR_EXTERNAL
+    Error : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0aefda20-c8d4-4e31-b2a9-5ccf96fa38e1')}; (*возможное возникновение ошибки*)
+    Reset_out : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('2fc7fd86-3960-4293-8c84-b4bb139d7812')}; (*Сброс позиции обнуление*)
+    Enc_Surv : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('a23cd692-24f2-4b95-bd40-0962c4a7838b')}; (*контроль обрыва*)
+    Latch : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('9cd8c84c-1f63-42b0-874a-ae4c2a594128')}; (*Зафиксированная позиция (например, по кнопке "Запомнить длину" или по внешнему событию)*)
+    Run_Stop : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8f4c83e2-2dcc-4bda-a96b-b8b4191d1e37')}; (*начало работы и конец*)
+    func_1_Position_INC1 : UDINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4f5f77b0-1fa7-46b0-b3da-cdfd713e728d')}; (*текущая позиция *)
 END_VAR

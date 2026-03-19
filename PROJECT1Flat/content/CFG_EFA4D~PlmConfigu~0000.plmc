@@ -7,5 +7,6 @@
 		<ComponentInstance id="66763e89-78c4-414e-8c4b-87e668252f95" name="Arp.Io.PnC" libraryName="Arp.Io.Pn" componentType="ControllerComponent" comment="" isReadOnly="true" />
 		<ComponentInstance id="d46734cf-dc02-4f4a-8d1a-250ca917940e" name="Arp.Io.AxlC" libraryName="Arp.Io.Axl" componentType="ControllerComponent" comment="" isReadOnly="true" />
 		<ComponentInstance id="6c1c3548-2466-496b-b6a5-746e2d125836" name="Arp.Io.IbM" libraryName="Arp.Io.Ib" componentType="ControllerComponent" comment="" isReadOnly="true" />
+		<ComponentInstance id="091ebc03-6fa9-4487-9a2f-786017e2e801" name="Arp.Services.AlarmServer" libraryName="Arp.Plc.Alarm" componentType="AlarmProgram" comment="" isReadOnly="true" />
 	</ComponentInstances>
 </PlmConfiguration>

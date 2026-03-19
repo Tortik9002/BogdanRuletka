@@ -35,17 +35,17 @@
          <Id>efa4d6fe-6800-4466-b9d3-9d3a161abbc2</Id>
          <FolderType>Configuration</FolderType>
          <AllowReordering>true</AllowReordering>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136</InstanceId>
-         <TypeId>{B6F733F0-ED92-492B-B41C-26BCEF241EE0}</TypeId>
-         <TypeName>AXC F 1152</TypeName>
-         <TypeRevision>00/2023.0.0</TypeRevision>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47</InstanceId>
+         <TypeId>{40F717A2-2DF1-427B-B979-5FACFB805399}</TypeId>
+         <TypeName>AXC F 2152</TypeName>
+         <TypeRevision>00/2024.0.0</TypeRevision>
          <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext">
          <Id>2e8040c1-7799-423e-982d-122ea8dd3387</Id>
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_1</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_1</InstanceId>
          <TypeId>L7_1</TypeId>
          <TypeName>PLCnext</TypeName>
          <ParentIndex>7</ParentIndex>
@@ -53,8 +53,8 @@
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7">
          <Id>109718fc-6453-48a0-a040-a10cd4325dc7</Id>
          <FolderType>Resource</FolderType>
-         <Type>AXCF1152</Type>
-         <Version>2023.0.0</Version>
+         <Type>AXCF2152</Type>
+         <Version>2024.0.0</Version>
          <UpdateType>Never</UpdateType>
          <IsFixed>true</IsFixed>
          <TypeId>L7_2</TypeId>
@@ -66,7 +66,7 @@
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
          <Visible>False</Visible>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_7</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_7</InstanceId>
          <TypeId>L7_7</TypeId>
          <TypeName>EIP:Master</TypeName>
          <ParentIndex>9</ParentIndex>
@@ -76,7 +76,7 @@
          <FolderType>HmiServer</FolderType>
          <TypeName>HMI:Server</TypeName>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_3</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_3</InstanceId>
          <TypeId>L7_3</TypeId>
          <ParentIndex>10</ParentIndex>
       </Folder>
@@ -85,7 +85,7 @@
          <FolderType>HmiApplication</FolderType>
          <TypeName>HMI:Application</TypeName>
          <DisplayName>Application</DisplayName>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\Application\HMI_Support">
          <Id>9011b9ae-b05e-4e68-8c02-32ba5fccd65b</Id>
@@ -93,49 +93,120 @@
          <DisplayName>Support</DisplayName>
          <TypeName>HMI:Support</TypeName>
          <IsFixed>true</IsFixed>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>0</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA">
          <Id>0ddb1e41-b432-486e-8fcd-b7dfad670674</Id>
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_5</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_5</InstanceId>
          <TypeId>L7_5</TypeId>
          <TypeName>OPCUA</TypeName>
-         <ParentIndex>11</ParentIndex>
+         <ParentIndex>12</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master">
          <Id>a19dde1a-df1f-40a1-9a2a-2efce432f8ca</Id>
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_4</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_4</InstanceId>
          <TypeId>L7_4</TypeId>
          <TypeName>PN:Master</TypeName>
-         <ParentIndex>12</ParentIndex>
+         <ParentIndex>13</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master">
          <Id>0e53aa67-7753-427e-9df5-1ae842efcb7d</Id>
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_ax</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_ax</InstanceId>
          <TypeId>L7_ax</TypeId>
          <TypeName>AXLF:Master</TypeName>
          <Visible>true</Visible>
-         <ParentIndex>13</ParentIndex>
+         <ParentIndex>14</ParentIndex>
       </Folder>
       <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master">
          <Id>983d550f-2234-4965-b8bf-fad2817b4ecf</Id>
          <FolderType>CommunicationEntity</FolderType>
          <IsFixed>true</IsFixed>
-         <InstanceId>d79c6d15-0a0b-4666-b314-2801556c3136.L7_8</InstanceId>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_8</InstanceId>
          <TypeId>L7_8</TypeId>
          <TypeName>IB:Master</TypeName>
          <Visible>false</Visible>
-         <ParentIndex>14</ParentIndex>
+         <ParentIndex>15</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\main.pou">
          <Id>e1cbe239-34fb-48b5-bc73-de51d9f590cd</Id>
          <FolderType>PouFolder</FolderType>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin">
+         <Id>929a3711-bab1-440b-9165-360f404149b3</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>1</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d">
+         <Id>34f58c1d-73d5-4c01-86ff-740e632bb785</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152">
+         <Id>1ffd36b0-ec32-466b-8665-84cee7e0c47d</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>d0697ce0-6615-4483-8d76-b4f518923738</InstanceId>
+         <TypeId>{7BE402E9-2437-45A8-8A30-806DC225A021}</TypeId>
+         <TypeName>AXC F 2152</TypeName>
+         <TypeRevision>00/2024.6.0</TypeRevision>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server">
+         <Id>605b7c51-bd6e-4d16-bd7a-d1bc94a909e5</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_10</InstanceId>
+         <TypeId>L7_10</TypeId>
+         <TypeName>ALARM:Server</TypeName>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster">
+         <Id>c6f99f9c-0700-4a26-8409-b0e1429787d1</Id>
+         <FolderType>CommunicationEntity</FolderType>
+         <IsFixed>true</IsFixed>
+         <InstanceId>cd54266f-8cf7-4605-8654-610975635d47.L7_9</InstanceId>
+         <TypeId>L7_9</TypeId>
+         <TypeName>IB:RemoteMaster</TypeName>
+         <Visible>false</Visible>
+         <ParentIndex>16</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H">
+         <Id>2515860f-2c0e-4661-8a0b-248e55c839a1</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>5886e37d-c403-4b63-836a-c728604c9c58</InstanceId>
+         <TypeId>{BF77A119-A5F0-43D4-AFE1-8EB58F302486}</TypeId>
+         <TypeName>AXL F DI16/1 DO8/2-2A 2H</TypeName>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H">
+         <Id>a5a2eeff-fede-4235-832e-0ba956238297</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>7dd26e59-7373-4bdc-b74a-5fb68c41315d</InstanceId>
+         <TypeId>{726CD190-9550-4506-8743-2F3069222867}</TypeId>
+         <TypeName>AXL F AI2 AO2 1H</TypeName>
+         <TypeRevision>02/1.00</TypeRevision>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F">
+         <Id>611a8a0e-70fe-4188-b566-6931d9948fb7</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>beffd13a-7cb8-421d-9cc3-dab46f6796e4</InstanceId>
+         <TypeId>{17378065-4C09-4BB9-8E4A-85864246A84D}</TypeId>
+         <TypeName>AXL F CNT2 INC2 1F</TypeName>
+         <TypeRevision>03/1.20</TypeRevision>
          <ParentIndex>2</ParentIndex>
       </Folder>
    </ItemGroup>
@@ -171,10 +242,10 @@
          <Visible>False</Visible>
          <ParentIndex>7</ParentIndex>
       </DiscoveryDocument>
-      <DiscoveryDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_4.discovery">
+      <DiscoveryDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_4.discovery">
          <Id>a00adb46-5926-41ff-8dd1-10a61b117099</Id>
          <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </DiscoveryDocument>
    </ItemGroup>
    <ItemGroup>
@@ -281,166 +352,189 @@
       </HelpTemplateDocument>
    </ItemGroup>
    <ItemGroup>
-      <DataTypeWorksheet Include="Logical Elements\GeneratedDataTypes.dt">
-         <Id>b2f88364-b1e1-45f6-a726-d2844bd847d6</Id>
-         <AutoGenerated>true</AutoGenerated>
-         <Visible>True</Visible>
-         <ParentIndex>1</ParentIndex>
-      </DataTypeWorksheet>
-   </ItemGroup>
-   <ItemGroup>
-      <CockpitDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\d79c6d15-0a0b-4666-b314-2801556c3136.cockpit">
-         <Id>106b2306-4b3a-4aac-9d61-d6e586653cf9</Id>
+      <DeviceInstanceDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738.ds">
+         <Id>f6010a2a-bf23-40cf-8d4e-fd7a06e881b6</Id>
          <Visible>False</Visible>
+         <GlobalAreaNetworkMember>True</GlobalAreaNetworkMember>
          <ParentIndex>5</ParentIndex>
-      </CockpitDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <ControllerStatisticDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\d79c6d15-0a0b-4666-b314-2801556c3136.statistic">
-         <Id>3b428b38-778f-40d6-a83a-c097144a36c9</Id>
-         <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
-      </ControllerStatisticDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <DeviceInstanceDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\d79c6d15-0a0b-4666-b314-2801556c3136.ds">
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\cd54266f-8cf7-4605-8654-610975635d47.ds">
          <Id>1a21fd22-fbde-4805-b624-4c0dcef322e6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\5886e37d-c403-4b63-836a-c728604c9c58.ds">
+         <Id>7f84eb30-82eb-4961-b18a-6581b30d4fe6</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\7dd26e59-7373-4bdc-b74a-5fb68c41315d.ds">
+         <Id>bc970e68-521d-48d7-9146-8fc713448db3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\beffd13a-7cb8-421d-9cc3-dab46f6796e4.ds">
+         <Id>6a4d5b2e-ba2a-4dd8-9c45-e69e20af7d00</Id>
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </DeviceInstanceDocument>
    </ItemGroup>
    <ItemGroup>
-      <DataList Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\DataList.dl">
-         <Id>b273a887-59b8-42bb-b580-d5607156ef85</Id>
-         <Visible>false</Visible>
-         <ParentIndex>6</ParentIndex>
-      </DataList>
-   </ItemGroup>
-   <ItemGroup>
-      <PlmConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PlmConfiguration.plmc">
-         <Id>6398cce2-e8b8-491c-b9c0-17b4a76fd865</Id>
-         <Visible>True</Visible>
-         <ParentIndex>2</ParentIndex>
-      </PlmConfiguration>
-   </ItemGroup>
-   <ItemGroup>
-      <PropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\d79c6d15-0a0b-4666-b314-2801556c3136.properties">
-         <Id>5f306659-b157-43bb-b0a7-2296bfad5ff8</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </PropertiesDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\d79c6d15-0a0b-4666-b314-2801556c3136.iprop">
-         <Id>a1493d02-fe58-4e32-a046-b7b918e7a7ea</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\ResourceProperties.iprop">
          <Id>82f56688-9b99-4dcd-9af5-c6617250cc7c</Id>
          <Visible>false</Visible>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>8</ParentIndex>
       </InstancePropertiesDocument>
       <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\HmiServerProperties.iprop">
          <Id>a31b4982-a748-4b77-93a2-5eb598a6a989</Id>
          <Visible>false</Visible>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_4.iprop">
+      <InstancePropertiesDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738.iprop">
+         <Id>6b7c79e8-b4f1-4732-881d-bcd3963934ff</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\cd54266f-8cf7-4605-8654-610975635d47.iprop">
+         <Id>a1493d02-fe58-4e32-a046-b7b918e7a7ea</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_4.iprop">
          <Id>7fbe15b1-658d-4c66-bf8e-133130b0c5e0</Id>
          <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_ax.iprop">
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_ax.iprop">
          <Id>2059fb57-a4e1-4142-a982-f5b035a242da</Id>
          <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </InstancePropertiesDocument>
-      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_8.iprop">
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_8.iprop">
          <Id>dbaa4414-672d-4652-9fce-1c20208e53e6</Id>
          <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\cd54266f-8cf7-4605-8654-610975635d47.L7_9.iprop">
+         <Id>073d3c5b-f68b-46de-b912-771b011808b5</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\5886e37d-c403-4b63-836a-c728604c9c58.iprop">
+         <Id>c65249c2-c56e-4423-ace8-7c650bac6446</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\7dd26e59-7373-4bdc-b74a-5fb68c41315d.iprop">
+         <Id>2febb94c-42e4-44a1-b501-8335490416b1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\beffd13a-7cb8-421d-9cc3-dab46f6796e4.iprop">
+         <Id>f3f7bfa7-d7ba-4230-81cb-083008b1a08c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
       </InstancePropertiesDocument>
    </ItemGroup>
    <ItemGroup>
-      <DataLoggerDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\d79c6d15-0a0b-4666-b314-2801556c3136.L7_1.datalogger">
-         <Id>e8eefc21-9eaf-486f-82a5-4bab1feecde8</Id>
-         <Visible>False</Visible>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\DataList.dlr4var">
+         <Id>e19ab275-34fd-48f6-87cb-2162319b939a</Id>
+         <Visible>false</Visible>
          <ParentIndex>3</ParentIndex>
-      </DataLoggerDocument>
-   </ItemGroup>
-   <ItemGroup>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\DataList.dlr4hmi">
+         <Id>a9b36824-c9e2-4f18-a8d1-81c379f89dc1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\DataList.dlr2pl">
          <Id>c14f0eac-5224-410f-8830-27dffe5dfbb4</Id>
          <Visible>false</Visible>
          <ParentIndex>2</ParentIndex>
       </DataListReference>
-      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\DataList.dlr4var">
-         <Id>e19ab275-34fd-48f6-87cb-2162319b939a</Id>
-         <Visible>false</Visible>
-         <ParentIndex>0</ParentIndex>
-      </DataListReference>
-      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\DataList.dlr4hmi">
-         <Id>a9b36824-c9e2-4f18-a8d1-81c379f89dc1</Id>
-         <Visible>false</Visible>
-         <ParentIndex>0</ParentIndex>
-      </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\DataList.dlr4pd">
          <Id>f96be7f0-2dd6-403e-9d53-143e5322954c</Id>
          <Visible>false</Visible>
-         <ParentIndex>8</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\DataList.dlr2pl4pd">
          <Id>8dbf9b70-5ad7-450b-9af3-77867f87b53f</Id>
          <Visible>false</Visible>
-         <ParentIndex>7</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\DataList.dlr4pd">
          <Id>a56370aa-2044-409b-9f2f-f347d1354012</Id>
          <Visible>false</Visible>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\DataList.dlr2pl4pd">
          <Id>d9e1a748-ca65-40cf-ba51-46ceb4696c67</Id>
          <Visible>false</Visible>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\DataList.dlr4pd">
          <Id>db620f2b-9195-421c-a65f-3f00ee08216c</Id>
          <Visible>false</Visible>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </DataListReference>
       <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\DataList.dlr2pl4pd">
          <Id>bc1f400e-de58-4341-b104-d0403fb57c72</Id>
          <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\DataList.dlr4pd">
+         <Id>eb4becf4-3637-4afc-8470-463750cc96a0</Id>
+         <Visible>false</Visible>
          <ParentIndex>5</ParentIndex>
       </DataListReference>
-   </ItemGroup>
-   <ItemGroup>
-      <EsmConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\EsmConfiguration.esmc">
-         <Id>5bea21e4-8271-4550-80d8-efa29266cc46</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </EsmConfiguration>
-   </ItemGroup>
-   <ItemGroup>
-      <PlcNextParameterDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\d79c6d15-0a0b-4666-b314-2801556c3136.L7_1.plcnextpar">
-         <Id>018b8f3f-f5e9-44c0-90cb-24589a6777ed</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </PlcNextParameterDocument>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\DataList.dlr2pl4pd">
+         <Id>e372c300-4b9c-459a-986c-5c382655fbca</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\DataList.dlr4pd">
+         <Id>cc1b14af-050e-4fd1-ac29-5499fcf10560</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\DataList.dlr2pl4pd">
+         <Id>3f0d2f36-2ff3-4d88-9eba-3dc2101ad8d6</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\DataList.dlr4pd">
+         <Id>43bd2fad-1fdb-43d6-bcf3-53b2e557f73b</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\DataList.dlr2pl4pd">
+         <Id>6424472c-4dc3-4121-8883-8288e162e46d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\DataList.dlr4pd">
+         <Id>14a924ba-3af8-4701-97a2-46ef3f6c5c2f</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\DataList.dlr2pl4pd">
+         <Id>8db1202e-1811-4389-b5e5-4a6850d96598</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
    </ItemGroup>
    <ItemGroup>
       <IoConfigurationWorksheet Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\IOConfiguration.ioc">
          <Id>51bc7941-0332-4d6b-a656-6cca2d461363</Id>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </IoConfigurationWorksheet>
    </ItemGroup>
    <ItemGroup>
       <ResourceSettings Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\ResourceSettings.set">
          <Id>60c7a044-264a-4013-b9f7-b73585597bcf</Id>
          <DisplayName>Task Configuration</DisplayName>
-         <ParentIndex>2</ParentIndex>
+         <FileLeadingLines></FileLeadingLines>
+         <ParentIndex>5</ParentIndex>
       </ResourceSettings>
    </ItemGroup>
    <ItemGroup>
@@ -448,7 +542,7 @@
          <Id>e303fb44-96a7-4a68-be3d-e719000abe7a</Id>
          <IsVarConfig>true</IsVarConfig>
          <Visible>false</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </VariableWorksheet>
       <VariableWorksheet Include="Logical Elements\main.pou\Variables.var">
          <Id>bc71cb54-72e7-49d0-9c4a-fb2b80583101</Id>
@@ -460,39 +554,61 @@
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\Arp.Plc.Eclr.libmeta">
          <Id>800120d1-c91d-4a6e-8231-4f2c4d9b00c3</Id>
          <Visible>False</Visible>
-         <ParentIndex>8</ParentIndex>
+         <Namespace>Arp.Plc.Eclr</Namespace>
+         <Name>Arp.Plc.Eclr</Name>
+         <ParentIndex>2</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\EIP_Master\Arp.Io.EthernetIP.libmeta">
          <Id>3b0a88e8-0f4a-4132-a006-d3cac3e1a964</Id>
          <Visible>False</Visible>
+         <Namespace>Arp.Io.EthernetIP</Namespace>
+         <Name>Arp.Io.EthernetIP</Name>
          <ParentIndex>2</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\Arp.Plc.Ehmi.libmeta">
          <Id>7d641caf-fc85-45cf-af15-79d3c0d44eda</Id>
          <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
+         <Namespace>Arp.Plc.Ehmi</Namespace>
+         <Name>Arp.Plc.Ehmi</Name>
+         <ParentIndex>2</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\Arp.Io.Pn.libmeta">
          <Id>1ffe3f36-389c-4f3b-b8b6-0135c526408c</Id>
          <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
+         <Namespace>Arp.Io.Pn</Namespace>
+         <Name>Arp.Io.Pn</Name>
+         <ParentIndex>8</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\Arp.Io.Axl.libmeta">
          <Id>9d80b085-9b98-4e8e-87f1-828382bc65c1</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <Namespace>Arp.Io.Axl</Namespace>
+         <Name>Arp.Io.Axl</Name>
+         <ParentIndex>9</ParentIndex>
       </MetaLibrary>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\Arp.Io.Ib.libmeta">
          <Id>a3543197-c56e-43cb-b6d4-d724b0500f05</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <Namespace>Arp.Io.Ib</Namespace>
+         <Name>Arp.Io.Ib</Name>
+         <ParentIndex>6</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Arp.Plc.Alarm.libmeta">
+         <Id>64c7b173-f168-48d4-adbd-a4c078a93da8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\Arp.Io.Ib.libmeta">
+         <Id>e59760ae-ee6c-4027-940c-a7c11701d9dc</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
       </MetaLibrary>
    </ItemGroup>
    <ItemGroup>
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\EclrComponent.compmeta">
          <Id>db2d23a9-4e6c-41bf-9889-18fa66cdee54</Id>
          <Visible>False</Visible>
-         <ParentIndex>7</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </MetaComponent>
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\EIP_Master\ControllerComponent.compmeta">
          <Id>bff23d71-25bb-4274-9bfd-b3d9d3aee633</Id>
@@ -502,54 +618,80 @@
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\EhmiComponent.compmeta">
          <Id>4441c67a-ad9d-4054-a4f4-a53f3f30e076</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>1</ParentIndex>
       </MetaComponent>
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\ControllerComponent.compmeta">
          <Id>d54734d5-9e97-4667-be74-ccec638463be</Id>
          <Visible>False</Visible>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>7</ParentIndex>
       </MetaComponent>
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\ControllerComponent.compmeta">
          <Id>053dfefe-3547-4576-b63d-6c745c1cad84</Id>
          <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>8</ParentIndex>
       </MetaComponent>
       <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\ControllerComponent.compmeta">
          <Id>04712104-f1d9-4a31-b9c4-94aaf0bb3e80</Id>
          <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>5</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\AlarmProgram.compmeta">
+         <Id>d5d08ae4-521b-4bce-865c-b0407a17743a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\ControllerComponent.compmeta">
+         <Id>21ec63aa-48d1-4416-9e86-cfd82d6ec741</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
       </MetaComponent>
    </ItemGroup>
    <ItemGroup>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\Arp.Plc.Eclr.acf.config">
          <Id>7ae85df4-46fa-4ec3-af78-4c12896840b8</Id>
          <Visible>False</Visible>
-         <ParentIndex>6</ParentIndex>
+         <InstantiatedComponentTypes>EclrComponent</InstantiatedComponentTypes>
+         <ParentIndex>0</ParentIndex>
       </AcfConfiguration>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\EIP_Master\Arp.Io.EthernetIP.acf.config">
          <Id>205530c9-969c-401d-970a-db24ed01f3c2</Id>
          <Visible>False</Visible>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
          <ParentIndex>0</ParentIndex>
       </AcfConfiguration>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\Arp.Plc.Ehmi.acf.config">
          <Id>8550a93e-6d71-4143-ad69-d18522347ea1</Id>
          <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
+         <InstantiatedComponentTypes>EhmiComponent</InstantiatedComponentTypes>
+         <ParentIndex>0</ParentIndex>
       </AcfConfiguration>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\Arp.Io.Pn.acf.config">
          <Id>569b506c-3d50-42ef-a6a0-1df8197d7f91</Id>
          <Visible>False</Visible>
-         <ParentIndex>4</ParentIndex>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>6</ParentIndex>
       </AcfConfiguration>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\Arp.Io.Axl.acf.config">
          <Id>d7fcdb7a-c3c8-4b1d-a8b1-a846cc1c36b1</Id>
          <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>7</ParentIndex>
       </AcfConfiguration>
       <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\Arp.Io.Ib.acf.config">
          <Id>b2e98440-d0e4-4078-95ff-1b335a26407f</Id>
          <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
+         <InstantiatedComponentTypes>ControllerComponent</InstantiatedComponentTypes>
+         <ParentIndex>4</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Arp.Plc.Alarm.acf.config">
+         <Id>ebde83f2-cd03-4866-a57a-e3123661509e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </AcfConfiguration>
+      <AcfConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\Arp.Io.Ib.acf.config">
+         <Id>c077afa3-d434-4644-8b2d-184208edda3b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
       </AcfConfiguration>
    </ItemGroup>
    <ItemGroup>
@@ -582,56 +724,56 @@
       </HmiNavigation>
    </ItemGroup>
    <ItemGroup>
-      <OpcUaPubSubDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\d79c6d15-0a0b-4666-b314-2801556c3136.L7_5.pubsub">
-         <Id>df16dc69-b340-4dc0-95b2-9ccc47fea8d8</Id>
-         <Visible>False</Visible>
-         <ParentIndex>3</ParentIndex>
-      </OpcUaPubSubDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <OpcUAClientConnectionsDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\d79c6d15-0a0b-4666-b314-2801556c3136.L7_5.opcuaclicon">
-         <Id>8607e9da-0e2e-442a-86d8-2a3b9a2b4769</Id>
-         <Visible>False</Visible>
-         <ParentIndex>2</ParentIndex>
-      </OpcUAClientConnectionsDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <OpcUAServerSettingsDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\d79c6d15-0a0b-4666-b314-2801556c3136.L7_5.opcua">
-         <Id>af25adf5-4a3f-4f68-8e51-1690de6e61e0</Id>
-         <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
-      </OpcUAServerSettingsDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <OpcUAClientModuleDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\d79c6d15-0a0b-4666-b314-2801556c3136.L7_5.opcuaclimod">
-         <Id>16af47ef-a74b-4b3d-aea1-484d45b6b88c</Id>
-         <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
-      </OpcUAClientModuleDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_4_PN_Master.station">
+      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_4_PN_Master.station">
          <Id>183c6fb2-c391-48e7-9a05-b6307daa7622</Id>
          <Visible>False</Visible>
-         <ParentIndex>1</ParentIndex>
+         <ParentIndex>5</ParentIndex>
       </StationDocument>
-      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_ax_AXLF_Master.station">
+      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_ax_AXLF_Master.station">
          <Id>fd47b52f-e184-4dc6-8b1b-c6a654bc46fc</Id>
          <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>6</ParentIndex>
       </StationDocument>
-      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_8_IB_Master.station">
+      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_8_IB_Master.station">
          <Id>4fd199e8-6466-4ef1-a887-271b41e1d9f6</Id>
          <Visible>False</Visible>
-         <ParentIndex>0</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </StationDocument>
-   </ItemGroup>
-   <ItemGroup>
-      <InterfaceListDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\d79c6d15-0a0b-4666-b314-2801556c3136.L7_4.interfacelst">
-         <Id>57776b58-25a1-4e8c-8e40-f17039f18b18</Id>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738_PN_Master.station">
+         <Id>38e7ea17-0229-4066-aa33-acc08c66ef64</Id>
          <Visible>False</Visible>
          <ParentIndex>0</ParentIndex>
-      </InterfaceListDocument>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738_AXLF_Master.station">
+         <Id>3f0b77a5-fcee-4559-aa11-975886a402d3</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738_IB_Master.station">
+         <Id>c06887ce-fc71-4f3e-988e-3fb28ed7b828</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738_IB_RemoteMaster.station">
+         <Id>510b895a-894f-422d-afde-81d3b3918fff</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738.L7_4_PN_Master.station">
+         <Id>7a395dde-ddae-4ff2-b8f1-c1c0777e4d9c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\AXC_F_2152\d0697ce0-6615-4483-8d76-b4f518923738.L7_ax_AXLF_Master.station">
+         <Id>0b94ffbb-c818-42a9-bc8f-fba2a3cc7406</Id>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\IB_RemoteMaster\58508c45-d9b4-4f26-b6e9-f7da91b6eb36.L7_9_IB_RemoteMaster.station">
+         <Id>56adb091-3ff8-4fe7-8002-f6d0f97e0ba2</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </StationDocument>
    </ItemGroup>
    <ItemGroup>
       <MetadataDocument Include="Logical Elements\main.pou\Metadata.meta">
@@ -652,6 +794,12 @@
          <DisplayName>Resources</DisplayName>
          <Visible>False</Visible>
          <ParentIndex>4</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Resources.locreslst">
+         <Id>0c9cff8f-08bf-407a-aafc-d24cd816fea9</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
       </LocalResourcesListDocument>
    </ItemGroup>
    <ItemGroup>
@@ -685,6 +833,12 @@
          <Visible>False</Visible>
          <ParentIndex>2</ParentIndex>
       </LocalResources>
+      <LocalResources Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Alarms.almwrk.locres">
+         <Id>07167f40-4420-4c78-8ef2-2a8cf1586ca8</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </LocalResources>
    </ItemGroup>
    <ItemGroup>
       <CodeWorksheet Include="Logical Elements\main.pou\Code.st">
@@ -699,13 +853,13 @@
          <Id>d723e5b3-c179-4d01-a14c-5051487fcedd</Id>
          <DisplayName>Page</DisplayName>
          <StartPage>True</StartPage>
-         <ParentIndex>4</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </HmiPage>
       <HmiPage Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\Application\Login.hmi">
          <Id>ee7a191a-db52-4084-aa95-fe86e551ffb4</Id>
          <DisplayName>Login</DisplayName>
          <StartPage>False</StartPage>
-         <ParentIndex>5</ParentIndex>
+         <ParentIndex>4</ParentIndex>
       </HmiPage>
    </ItemGroup>
    <ItemGroup>
@@ -746,14 +900,169 @@
       <HmiConfig Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\HmiConfiguration.xml">
          <Id>5bde9d47-e3d3-49ae-beb6-42dc1c60babc</Id>
          <DisplayName>HMI Configuration</DisplayName>
-         <ParentIndex>6</ParentIndex>
+         <ParentIndex>3</ParentIndex>
       </HmiConfig>
    </ItemGroup>
    <ItemGroup>
       <HmiPageTemplate Include="Logical Elements\Page.hmipagetemplate">
          <Id>0dad470e-0ade-4f3c-bc35-7a3bfa0e19e3</Id>
          <DisplayName>Page</DisplayName>
-         <ParentIndex>3</ParentIndex>
+         <ParentIndex>2</ParentIndex>
       </HmiPageTemplate>
+   </ItemGroup>
+   <ItemGroup>
+      <RestoreDocument Include="RecycleBin\1ffd36b0-ec32-466b-8665-84cee7e0c47d\1ffd36b0-ec32-466b-8665-84cee7e0c47d">
+         <Id>b7ddd4c4-52e2-457b-b8bc-1baa635cba02</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataTypeWorksheet Include="Logical Elements\GeneratedDataTypes.dt">
+         <Id>ebeb8119-a3f9-45f5-b572-f4d2934c22bc</Id>
+         <AutoGenerated>true</AutoGenerated>
+         <Visible>True</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataTypeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <CockpitDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\cd54266f-8cf7-4605-8654-610975635d47.cockpit">
+         <Id>106b2306-4b3a-4aac-9d61-d6e586653cf9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </CockpitDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ControllerStatisticDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\cd54266f-8cf7-4605-8654-610975635d47.statistic">
+         <Id>3b428b38-778f-40d6-a83a-c097144a36c9</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </ControllerStatisticDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataList Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\DataList.dl">
+         <Id>93b583ef-1bd6-4c07-9382-acf457f10aa1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataList>
+   </ItemGroup>
+   <ItemGroup>
+      <PlmConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PlmConfiguration.plmc">
+         <Id>6398cce2-e8b8-491c-b9c0-17b4a76fd865</Id>
+         <Visible>True</Visible>
+         <ParentIndex>2</ParentIndex>
+      </PlmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <PropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\cd54266f-8cf7-4605-8654-610975635d47.properties">
+         <Id>5f306659-b157-43bb-b0a7-2296bfad5ff8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\5886e37d-c403-4b63-836a-c728604c9c58.properties">
+         <Id>aa1ec844-9a2c-433a-970a-028e7db30fbd</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\7dd26e59-7373-4bdc-b74a-5fb68c41315d.properties">
+         <Id>6b9465a2-74c3-4239-bcc9-c4474d4ed955</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\beffd13a-7cb8-421d-9cc3-dab46f6796e4.properties">
+         <Id>fb868f7b-eb7b-4a76-bd33-b467c6692ee8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataLoggerDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\cd54266f-8cf7-4605-8654-610975635d47.L7_1.datalogger">
+         <Id>e8eefc21-9eaf-486f-82a5-4bab1feecde8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataLoggerDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <EsmConfiguration Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\EsmConfiguration.esmc">
+         <Id>5bea21e4-8271-4550-80d8-efa29266cc46</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </EsmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <PlcNextParameterDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PLCnext\cd54266f-8cf7-4605-8654-610975635d47.L7_1.plcnextpar">
+         <Id>018b8f3f-f5e9-44c0-90cb-24589a6777ed</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </PlcNextParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <AlarmWorksheet Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Alarms.almwrk">
+         <Id>75cacafe-25db-4e9a-8386-639d316cf09b</Id>
+         <DisplayName>Alarms</DisplayName>
+         <Extension>.almwrk</Extension>
+         <ParentIndex>4</ParentIndex>
+      </AlarmWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaProgram Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\AlarmProgram.progmeta">
+         <Id>f73c861d-b597-43a1-a1ff-c07fbaeeaafa</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </MetaProgram>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUaPubSubDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\cd54266f-8cf7-4605-8654-610975635d47.L7_5.pubsub">
+         <Id>df16dc69-b340-4dc0-95b2-9ccc47fea8d8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </OpcUaPubSubDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAClientConnectionsDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\cd54266f-8cf7-4605-8654-610975635d47.L7_5.opcuaclicon">
+         <Id>8607e9da-0e2e-442a-86d8-2a3b9a2b4769</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </OpcUAClientConnectionsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAServerSettingsDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\cd54266f-8cf7-4605-8654-610975635d47.L7_5.opcua">
+         <Id>af25adf5-4a3f-4f68-8e51-1690de6e61e0</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </OpcUAServerSettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <OpcUAClientModuleDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\OPCUA\cd54266f-8cf7-4605-8654-610975635d47.L7_5.opcuaclimod">
+         <Id>16af47ef-a74b-4b3d-aea1-484d45b6b88c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </OpcUAClientModuleDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <InterfaceListDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\PN_Master\cd54266f-8cf7-4605-8654-610975635d47.L7_4.interfacelst">
+         <Id>57776b58-25a1-4e8c-8e40-f17039f18b18</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InterfaceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ParameterDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_DI16_1_DO8_2-2A_2H\5886e37d-c403-4b63-836a-c728604c9c58.par">
+         <Id>f726c397-a16d-46e1-acb9-8a8ace5cd5e6</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_AI2_AO2_1H\7dd26e59-7373-4bdc-b74a-5fb68c41315d.par">
+         <Id>11cceaa6-de16-42e2-8037-bd8938718f9c</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
+      <ParameterDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\AXLF_Master\AXL_F_CNT2_INC2_1F\beffd13a-7cb8-421d-9cc3-dab46f6796e4.par">
+         <Id>045840e8-166e-4069-9988-76beb687f69b</Id>
+         <Visible>False</Visible>
+         <ProtocolName>AXLF</ProtocolName>
+         <ParentIndex>2</ParentIndex>
+      </ParameterDocument>
    </ItemGroup>
 </Project>

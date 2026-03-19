@@ -6,5 +6,13 @@
       <file name="SafetyInventory.xml" id="Inventori~SafetyInve~0000.xml" />
     </folder>
     <folder name="Logical Elements" />
+    <folder name="RecycleBin" />
+    <folder name="Hardware">
+      <folder name="CFG_EFA4D6FE68004466B9D39D3A161ABBC2">
+        <folder name="PN_Master" />
+        <folder name="AXLF_Master" />
+        <folder name="IB_Master" />
+      </folder>
+    </folder>
   </folder>
 </content>

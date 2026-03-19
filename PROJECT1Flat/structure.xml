@@ -12,9 +12,6 @@
       <file name="Description.en.html" id="Hardware~Description~0001.html" />
       <file name="67668339-4bfd-4017-8fac-0590c8a9da2d.projset" id="Hardware~67668339-4b~0002.projset" />
       <folder name="CFG_EFA4D6FE68004466B9D39D3A161ABBC2">
-        <file name="PlmConfiguration.plmc" id="CFG_EFA4D~PlmConfigu~0000.plmc" />
-        <file name="DataList.dl" id="CFG_EFA4D6F~DataList~0000.dl" />
-        <file name="d79c6d15-0a0b-4666-b314-2801556c3136.ds" id="CFG_EFA4D~d79c6d15-0~0000.ds" />
         <folder name="RES_109718FC645348A0A040A10CD4325DC7">
           <file name="DataList.dlr4var" id="RES_109718F~DataList~0000.dlr4var" />
           <file name="IOConfiguration.ioc" id="RES_10971~IOConfigur~0000.ioc" />
@@ -25,7 +22,8 @@
           <file name="Arp.Plc.Eclr.acf.config" id="RES_10971~Arp.Plc.Ec~0001.config" />
         </folder>
         <folder name="PLCnext">
-          <file name="EsmConfiguration.esmc" id="PLCnext~EsmConfigura~0001.esmc" />
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_1.datalogger" id="PLCnext~cd54266f-8cf~0000.datalogger" />
+          <file name="EsmConfiguration.esmc" id="PLCnext~EsmConfigura~0000.esmc" />
         </folder>
         <folder name="EIP_Master">
           <file name="Arp.Io.EthernetIP.libmeta" id="EIP_Maste~Arp.Io.Eth~0002.libmeta" />
@@ -56,27 +54,54 @@
           <file name="HmiConfiguration.xml" id="HMI_Serve~HmiConfigu~0000.xml" />
         </folder>
         <folder name="PN_Master">
-          <file name="d79c6d15-0a0b-4666-b314-2801556c3136.L7_4_PN_Master.station" id="PN_Master~d79c6d15-0~0000.station" />
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_4_PN_Master.station" id="PN_Master~cd54266f-8~0000.station" />
           <file name="Arp.Io.Pn.libmeta" id="PN_Master~Arp.Io.Pn~0001.libmeta" />
           <file name="ControllerComponent.compmeta" id="PN_Master~Controller~0001.compmeta" />
           <file name="Arp.Io.Pn.acf.config" id="PN_Master~Arp.Io.Pn.~0001.config" />
         </folder>
         <folder name="AXLF_Master">
-          <file name="d79c6d15-0a0b-4666-b314-2801556c3136.L7_ax_AXLF_Master.station" id="AXLF_Mast~d79c6d15-0~0000.station" />
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_ax_AXLF_Master.station" id="AXLF_Mast~cd54266f-8~0000.station" />
           <file name="Arp.Io.Axl.libmeta" id="AXLF_Mast~Arp.Io.Axl~0002.libmeta" />
           <file name="ControllerComponent.compmeta" id="AXLF_Mast~Controller~0001.compmeta" />
           <file name="Arp.Io.Axl.acf.config" id="AXLF_Mast~Arp.Io.Axl~0003.config" />
+          <folder name="AXL_F_DI16_1_DO8_2-2A_2H">
+            <file name="5886e37d-c403-4b63-836a-c728604c9c58.ds" id="AXL_F_DI1~5886e37d-c~0000.ds" />
+          </folder>
+          <folder name="AXL_F_AI2_AO2_1H">
+            <file name="7dd26e59-7373-4bdc-b74a-5fb68c41315d.ds" id="AXL_F_AI2~7dd26e59-7~0000.ds" />
+          </folder>
+          <folder name="AXL_F_CNT2_INC2_1F">
+            <file name="beffd13a-7cb8-421d-9cc3-dab46f6796e4.ds" id="AXL_F_CNT~beffd13a-7~0000.ds" />
+          </folder>
         </folder>
         <folder name="IB_Master">
-          <file name="d79c6d15-0a0b-4666-b314-2801556c3136.L7_8_IB_Master.station" id="IB_Master~d79c6d15-0~0000.station" />
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_8_IB_Master.station" id="IB_Master~cd54266f-8~0000.station" />
           <file name="Arp.Io.Ib.libmeta" id="IB_Master~Arp.Io.Ib~0001.libmeta" />
           <file name="ControllerComponent.compmeta" id="IB_Master~Controller~0001.compmeta" />
           <file name="Arp.Io.Ib.acf.config" id="IB_Master~Arp.Io.Ib.~0001.config" />
         </folder>
+        <file name="cd54266f-8cf7-4605-8654-610975635d47.ds" id="CFG_EFA4D~cd54266f-8~0000.ds" />
+        <folder name="ALARM_Server">
+          <file name="Alarms.almwrk" id="ALARM_Server~Alarms~0000.almwrk" />
+          <file name="Arp.Plc.Alarm.libmeta" id="ALARM_Ser~Arp.Plc.Al~0000.libmeta" />
+          <file name="AlarmProgram.compmeta" id="ALARM_Ser~AlarmProgr~0000.compmeta" />
+          <file name="AlarmProgram.progmeta" id="ALARM_Ser~AlarmProgr~0001.progmeta" />
+          <file name="Arp.Plc.Alarm.acf.config" id="ALARM_Ser~Arp.Plc.Al~0001.config" />
+        </folder>
+        <folder name="OPCUA">
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_5.pubsub" id="OPCUA~cd54266f-8cf7-~0000.pubsub" />
+          <file name="cd54266f-8cf7-4605-8654-610975635d47.L7_5.opcuaclicon" id="OPCUA~cd54266f-8cf7-~0001.opcuaclicon" />
+        </folder>
+        <folder name="IB_RemoteMaster">
+          <file name="Arp.Io.Ib.libmeta" id="IB_RemoteM~Arp.Io.Ib~0000.libmeta" />
+          <file name="ControllerComponent.compmeta" id="IB_Remote~Controller~0000.compmeta" />
+          <file name="Arp.Io.Ib.acf.config" id="IB_Remote~Arp.Io.Ib.~0000.config" />
+        </folder>
+        <file name="PlmConfiguration.plmc" id="CFG_EFA4D~PlmConfigu~0000.plmc" />
+        <file name="DataList.dl" id="CFG_EFA4D6F~DataList~0000.dl" />
       </folder>
     </folder>
     <folder name="Logical Elements">
-      <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0001.dt" />
       <folder name="HelpTemplate">
         <file name="collapse_toggle.png" id="HelpTempl~collapse_t~0001.png" />
         <file name="image.png" id="HelpTemplate~image~0001.png" />
@@ -100,6 +125,22 @@
         <file name="Definition.hmipagedef" id="Page.hmip~Definition~0000.hmipagedef" />
         <file name="Parameters.hmiparams" id="Page.hmip~Parameters~0000.hmiparams" />
         <file name="Definition.hmipagedef.locres" id="Page.hmip~Definition~0001.locres" />
+      </folder>
+      <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
+    </folder>
+    <folder name="RecycleBin">
+      <folder name="1ffd36b0-ec32-466b-8665-84cee7e0c47d">
+        <file name="1ffd36b0-ec32-466b-8665-84cee7e0c47d" id="1ffd36b0-~1ffd36b0-e~0000" />
+        <folder name="AXC_F_2152">
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738_PN_Master.station" id="AXC_F_215~d0697ce0-6~0007.station" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738_AXLF_Master.station" id="AXC_F_215~d0697ce0-6~0008.station" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738_IB_Master.station" id="AXC_F_215~d0697ce0-6~0009.station" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738_IB_RemoteMaster.station" id="AXC_F_215~d0697ce0-6~000a.station" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738.iprop" id="AXC_F_215~d0697ce0-6~000b.iprop" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738.ds" id="AXC_F_215~d0697ce0-6~000c.ds" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738.L7_4_PN_Master.station" id="AXC_F_215~d0697ce0-6~000d.station" />
+          <file name="d0697ce0-6615-4483-8d76-b4f518923738.L7_ax_AXLF_Master.station" id="AXC_F_215~d0697ce0-6~000e.station" />
+        </folder>
       </folder>
     </folder>
   </folder>

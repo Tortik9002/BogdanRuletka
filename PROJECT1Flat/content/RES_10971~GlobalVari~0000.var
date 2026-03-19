@@ -2,67 +2,80 @@
 { CustomGroupDefinition('971398c9-e054-4349-a1d9-e00a1840c9f4', 'System Variables') }
 
 VAR_GLOBAL
-    PND_S1_PLC_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('537192d2-3605-4ea2-9973-9ac6210e470c')}; (*Higher level PLC in RUN*)
-    PND_S1_VALID_DATA_CYCLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('c348e117-a229-4f90-b7df-5fddb6ba2c71')}; (*Connection to Profinet-Controller*)
-    PND_S1_OUTPUT_STATUS_GOOD : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('aeb92a4e-e2c4-49a7-9a16-a477ef72bc13')}; (*IOP status of the higher-level control system*)
-    PND_S1_INPUT_STATUS_GOOD : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('6a73ff14-0947-4dc6-8c78-4a0de2794964')}; (*IOC status of the higher-level control system*)
-    PND_S1_DATA_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('9f56019c-b813-4922-9b30-8fec2e9b8b12')}; (*Process data length*)
-    PND_S1_OUTPUTS : PND_IO_512 { SystemVariable, Origin('epd056'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('3d71ac46-5755-4de0-b6ba-424365e3740f')}; (*Output process data*)
-    PND_S1_INPUTS : PND_IO_512 { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('eb6f4a81-56c6-4556-b8d7-581502a2319e')}; (*Input process data*)
-    PND_IO_DRIVEN_BY_PLC : INT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('d34b2fb5-47aa-4223-8ffa-4f0b42b0ef65')};
-    AXIO_DIAG_STATUS_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('109c87f5-15c4-46fa-9927-83b3bdc19fa8')};
-    AXIO_DIAG_STATUS_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('4970bfae-1a9e-42c5-ac01-79b73b5b34ee')};
-    AXIO_DIAG_PARAM_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('f9c742d2-ae01-4335-a884-d5f59b84968a')};
-    AXIO_DIAG_PARAM_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('91b09ded-384d-4cbe-8d90-6fa0f6210adc')};
-    AXIO_DIAG_PARAM_2_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('d50dbe9b-8f5b-4ee2-9fde-02edc5c47492')};
-    AXIO_DIAG_PARAM_2_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('c0572910-d732-4cbf-934d-a59332a3e3ce')};
-    AXIO_DIAG_STATUS_REG_PF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('70c14de1-bbcc-4f88-a979-4768b658acba')};
-    AXIO_DIAG_STATUS_REG_BUS : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('9f42d7c2-bd5d-4129-a2be-c24eabbe6c17')};
-    AXIO_DIAG_STATUS_REG_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('bcfa959b-0906-4620-9dbc-8e0b296a6e25')};
-    AXIO_DIAG_STATUS_REG_ACT : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('c4926b18-1492-4b33-aba7-b2db6135f732')};
-    AXIO_DIAG_STATUS_REG_RDY : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('354f6527-6306-4925-8397-30873947820c')};
-    AXIO_DIAG_STATUS_REG_SYSFAIL : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('57d59444-7eb1-4f71-ab4a-d74b20e921cc')};
-    AXIO_DIAG_STATUS_REG_PW : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('424f7a6c-65d9-43eb-aee0-86147de7378f')};
-    IB_DIAG_STATUS_REG_HI : BYTE { SystemVariable, Origin('epdib1'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('74957ba8-75e9-4271-80fc-f26acb6bca36')};
-    IB_DIAG_STATUS_REG_LOW : BYTE { SystemVariable, Origin('epdib2'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('47c17b9c-d5bf-4d26-b143-7b999ee607c6')};
-    IB_DIAG_STATUS_REG_SYSFAIL : BOOL { SystemVariable, Origin('epdib3'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('1fea2f21-d918-441d-9a83-19105bee9cee')};
-    IB_DIAG_STATUS_REG_WARN : BOOL { SystemVariable, Origin('epdib4'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('c551c0a6-deac-4718-87dc-d6c2fda26d8c')};
-    IB_DIAG_STATUS_REG_QUAL : BOOL { SystemVariable, Origin('epdib5'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('d620acb6-5528-45c5-99d6-ee8cb57c0f72')};
-    IB_DIAG_STATUS_REG_USER : BOOL { SystemVariable, Origin('epdib6'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('c9c3142c-4874-4c28-a755-6591774541a6')};
-    IB_DIAG_STATUS_REG_PF : BOOL { SystemVariable, Origin('epdib7'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('491eabf8-b483-4726-bd90-62f42392b201')};
-    IB_DIAG_STATUS_REG_BUS : BOOL { SystemVariable, Origin('epdib8'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('f2c439be-7073-42d6-90ec-4c043528e1c6')};
-    IB_DIAG_STATUS_REG_CTRL : BOOL { SystemVariable, Origin('epdib9'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('0edd9fcb-ddb8-4db1-9ab3-524d7f98ebbd')};
-    IB_DIAG_STATUS_REG_DTC : BOOL { SystemVariable, Origin('epdib10'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('b2109ab2-b814-4302-9159-40eb16dc02a6')};
-    IB_DIAG_STATUS_REG_RUN : BOOL { SystemVariable, Origin('epdib11'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('738d51ce-7b9d-4c4a-aa49-8e29e398c78b')};
-    IB_DIAG_STATUS_REG_ACT : BOOL { SystemVariable, Origin('epdib12'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('a4e09de0-4959-496d-a60d-52404a52f9a3')};
-    IB_DIAG_STATUS_REG_RDY : BOOL { SystemVariable, Origin('epdib13'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('a1afe0d1-8ff2-4972-a193-8c2194c1deec')};
-    IB_DIAG_PARAM_REG_HI : BYTE { SystemVariable, Origin('epdib14'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('7bb2496a-f64e-4bda-9880-81fd1a6ede7b')};
-    IB_DIAG_PARAM_REG_LOW : BYTE { SystemVariable, Origin('epdib15'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('75bc764b-57ab-4d1f-a6b8-51145f39dea5')};
-    IB_DIAG_PARAM_2_REG_HI : BYTE { SystemVariable, Origin('epdib16'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('bf5e3604-46dc-4a24-badf-420d96925ed2')};
-    IB_DIAG_PARAM_2_REG_LOW : BYTE { SystemVariable, Origin('epdib17'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('f14d4c52-a128-437b-8cfa-1e481fd11b83')};
-    ESM_DATA : ESM_DAT { SystemVariable, Origin('epd100'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('481ab28e-6429-4ef5-8f9d-fc2b5a2dd877')};
-    RTC : RTC_TYPE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('14a3e15e-1b48-44ae-96bb-fe4de07fe0e9')};
-    DEVICE_STATE : DEVICE_STATE_2152_TYPE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('d35694e2-8323-481b-9a01-c03c7523a3d9')};
-    USER_PARTITION : PARTITION_INFO { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('aaa00231-35cc-4325-9210-dc81e2aba637')};
-    PNIO_SYSTEM_BF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('4be5a188-f17b-4f23-aef1-89a0bed62eb4')};
-    PNIO_SYSTEM_SF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('38b238c1-7294-473a-b1f8-03ec206dc994')};
-    PNIO_MAINTENANCE_DEMANDED : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('ab2c4c01-a832-47c1-915c-05a523de28df')};
-    PNIO_MAINTENANCE_REQUIRED : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('b7d0c724-fd09-47d6-a7c7-b706d0c76e9e')};
-    PNIO_CONFIG_STATUS : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('65078bdf-a185-4ccf-a086-6f4872d0dcb3')};
-    PNIO_CONFIG_STATUS_ACTIVE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('47c66a05-f582-4381-94a0-53da53f901d7')};
-    PNIO_CONFIG_STATUS_READY : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('25b259fe-0758-4a16-8234-f107786382cb')};
-    PNIO_CONFIG_STATUS_CFG_FAULT : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('108b16f1-ebce-4011-aabe-374b231d74ef')};
-    PNIO_FORCE_FAILSAFE : BOOL { SystemVariable, Origin('epd145'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('54130068-429f-4747-a66c-21838762640f')};
-    IP_ACTIVE_SOCKETS AT %MW1.30000 : UINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('966b360a-027b-4bdd-b951-14e9290cb4ea')};
-    TLS_ACTIVE_SOCKETS AT %MW1.30100 : UINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('44676708-ba3c-465a-a80d-4c432f8259d1')};
-    HMI_STATUS2 : HMI_STATUS_TYPE2 { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('07bd8833-9a84-4f73-b871-7ae0db3b9440')};
-    HMI_CONTROL : HMI_CONTROL_TYPE { SystemVariable, Origin('epd151'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('cefec7bd-a6d2-451e-abdb-e1163b0b38d2')};
-    EIPD_INPUTS : EIPD_IO_ARRAY { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('fa0e2a3b-5fbe-4b86-9560-072778840f3c')};
-    EIPD_OUTPUTS : EIPD_IO_ARRAY { SystemVariable, Origin('epd153'), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Assignable(IsWritable := True) } {Id('8011a1db-e944-48ac-99e3-fab60353d1c8')};
-    EIPD_VALID_DATA_CYCLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('34747357-2dcc-4256-b6f8-690be6fa2e71')};
-    EIPD_PEER_IDLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('3f2f1237-c93d-4fd3-882d-06b527b43b46')};
-    EIPD_PEER_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('e36016ac-e690-42e8-94a0-c03a648a9324')};
-    EIPD_OUTPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('09a0b2de-a835-4ff4-bc6d-fa84dc742a56')};
-    EIPD_INPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('025c9fc2-446c-4593-a8c8-79422586b017')};
-    PLC_CRC_PRJ AT %ML1.10000 : ULINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('78c85abe-1ce2-45a6-a727-03f56cd3933f')};
+    Position : DINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('9a77dfdc-6eee-49ad-8fef-ddfe15c266dc')}; (*Текущая позиция (длина в импульсах или после пересчёта в мм/см/м)*)
+    Reset : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('5f122c97-4af0-4122-b985-0d674dc2a382')}; (*Сброс позиции обнуление*)
+    Erro : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('668e647c-2ee3-4dec-b9c6-e9da9b55d579')}; (*возможное возникновение ошибки*)
+    Enc_Surv : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('ae1f84c1-1ea4-4e25-85b9-e06930b881fd')}; (*контроль обрыва*)
+    Latch : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('1fac8022-ce5c-47f4-b171-baabd79fda8b')}; (*Зафиксированная позиция (например, по кнопке "Запомнить длину" или по внешнему событию)*)
+    Run_Stop : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('8a472c2b-c4c5-44dc-ba93-aaaecedc2aad')}; (*начало работы и конец*)
+    func_1_Position_INC1 : UDINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('46901dd5-e950-4c4f-bbc1-7514f3ed7bba')}; (*текущая позиция *)
+    Error : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('78dfce27-b611-421a-abe6-49b27eafcea5')}; (*возможное возникновение ошибки*)
+    hjkhkjhk : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('990ca110-ffc3-46ca-b6df-c1685ac86795')};
+    ButtonPress : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('216eede1-c105-4cbc-a7cc-d589e4e89bcf')};
+    Reset_out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('aa8b4a81-fa1c-42cb-a125-1f5da3f4ec85')}; (*Сброс позиции обнуление*)
+    Button_Reset_in : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('bcb8108a-95be-494b-b4ed-d6cfaaf4caca')};
+    PND_S1_PLC_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('3599af47-94c8-4e99-a678-710b163ba1f8')}; (*Higher level PLC in RUN*)
+    PND_S1_VALID_DATA_CYCLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('659b85e6-4513-42a4-bac9-663ad70a3858')}; (*Connection to Profinet-Controller*)
+    PND_S1_OUTPUT_STATUS_GOOD : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('d5325260-cf75-439c-93a2-60893c2ea11c')}; (*IOP status of the higher-level control system*)
+    PND_S1_INPUT_STATUS_GOOD : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('06a1c322-e2ea-4a04-8db8-ef28a9c53857')}; (*IOC status of the higher-level control system*)
+    PND_S1_DATA_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('989ebc79-9299-45f5-ae41-2d5390c8a1bb')}; (*Process data length*)
+    PND_S1_OUTPUTS : PND_IO_512 { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd056') } {Id('a294f4b2-fea3-4eaf-848b-a6d09a233b24')}; (*Output process data*)
+    PND_S1_INPUTS : PND_IO_512 { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('43de1ae6-29c6-4d66-93e1-f87e26a796fc')}; (*Input process data*)
+    PND_IO_DRIVEN_BY_PLC : INT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('46b5148a-6e13-49b0-8694-aa5aac783c20')};
+    AXIO_DIAG_STATUS_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('769597b5-8325-4335-b07b-5c1ad460387c')};
+    AXIO_DIAG_STATUS_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('a1e46504-d329-4d3b-86f8-9d789d8b9612')};
+    AXIO_DIAG_PARAM_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('2b634158-5be0-4ec4-b15b-8a7bbe96ae06')};
+    AXIO_DIAG_PARAM_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('abc24e3c-f704-492e-bfbd-3a69c6b3dd79')};
+    AXIO_DIAG_PARAM_2_REG_HI : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('210f5aec-bd1d-48fb-8b28-7a26f7fd5696')};
+    AXIO_DIAG_PARAM_2_REG_LOW : BYTE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('8197292d-65f4-47fc-8a26-ee019ed68e6d')};
+    AXIO_DIAG_STATUS_REG_PF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('e5c1f275-322e-4d06-b2c6-f3ed05be2f15')};
+    AXIO_DIAG_STATUS_REG_BUS : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('61a001e4-ed0a-4e33-a0e3-6924c659a81f')};
+    AXIO_DIAG_STATUS_REG_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('20600b04-5e17-49d4-95e2-1477aac35916')};
+    AXIO_DIAG_STATUS_REG_ACT : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('bd3529bd-0ae7-451f-8dcb-6c086f497f90')};
+    AXIO_DIAG_STATUS_REG_RDY : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('7dc1cf11-8bf2-4932-9e42-58c93be8a29b')};
+    AXIO_DIAG_STATUS_REG_SYSFAIL : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('1ed22122-face-4b1c-8534-fcf07e0fd5be')};
+    AXIO_DIAG_STATUS_REG_PW : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('f0711dfa-ce23-4506-86bf-6ecf78951989')};
+    IB_DIAG_STATUS_REG_HI : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib1') } {Id('fce856e6-f1e7-471c-b263-e5df82441fbe')};
+    IB_DIAG_STATUS_REG_LOW : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib2') } {Id('856af23b-d590-430c-a25b-11605efaf6f1')};
+    IB_DIAG_STATUS_REG_SYSFAIL : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib3') } {Id('f3452183-7d64-4c2f-a510-8a0a2056ec05')};
+    IB_DIAG_STATUS_REG_WARN : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib4') } {Id('31325169-08a7-493d-8190-13af66f350da')};
+    IB_DIAG_STATUS_REG_QUAL : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib5') } {Id('a273fac0-3ff2-41f3-a6a7-3d49307543d7')};
+    IB_DIAG_STATUS_REG_USER : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib6') } {Id('3ea9cccc-cf17-4349-b7e5-2ed031dceba1')};
+    IB_DIAG_STATUS_REG_PF : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib7') } {Id('b9e17287-6bb3-4d5f-b537-0655a4c3d69a')};
+    IB_DIAG_STATUS_REG_BUS : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib8') } {Id('8f828e0b-b9b9-4256-9691-bf5fc7eca711')};
+    IB_DIAG_STATUS_REG_CTRL : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib9') } {Id('86c80be5-c33f-4115-a3f3-431ec63b2d36')};
+    IB_DIAG_STATUS_REG_DTC : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib10') } {Id('0fbd90b1-019f-490c-b22c-4b77415f9585')};
+    IB_DIAG_STATUS_REG_RUN : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib11') } {Id('079007c7-4a85-462f-9927-151097e0e811')};
+    IB_DIAG_STATUS_REG_ACT : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib12') } {Id('37a61956-f0c5-42f6-9815-c78231ee8d51')};
+    IB_DIAG_STATUS_REG_RDY : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib13') } {Id('1658822c-5084-4ecd-8133-ba8b5abc6441')};
+    IB_DIAG_PARAM_REG_HI : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib14') } {Id('2d9f505c-f4a1-41aa-ac9c-d768ea6fceb9')};
+    IB_DIAG_PARAM_REG_LOW : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib15') } {Id('506a4b08-5b93-4b38-991d-bc9a5463e91a')};
+    IB_DIAG_PARAM_2_REG_HI : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib16') } {Id('5e0a5f7e-10fc-472c-9ef7-2e77edc5fce0')};
+    IB_DIAG_PARAM_2_REG_LOW : BYTE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epdib17') } {Id('a486f39f-3e1e-478b-8121-30840802ff27')};
+    ESM_DATA : ESM_DAT { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd100') } {Id('c1181a57-e8b1-4305-9161-01a529660207')};
+    RTC : RTC_TYPE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('804f1e6b-d60f-41df-8ac4-0ddd01020037')};
+    DEVICE_STATE : DEVICE_STATE_2152_TYPE { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('dc070f97-fc13-4fb7-a2cc-3d7a80e3fbe4')};
+    USER_PARTITION : PARTITION_INFO { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('3f6b86da-55f8-4de9-a36a-ddd0741c9016')};
+    PNIO_SYSTEM_BF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('8b0567e8-3a89-4952-8969-1be56ce600fd')};
+    PNIO_SYSTEM_SF : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('cd8b4788-f18f-41ab-9bcd-6bbac4f2bff3')};
+    PNIO_MAINTENANCE_DEMANDED : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('e9ab32df-e41c-4507-a5f6-d5331c2b1d4f')};
+    PNIO_MAINTENANCE_REQUIRED : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('7e5485e1-56ec-48d8-a216-a64cde22a6d0')};
+    PNIO_CONFIG_STATUS : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('fe753406-62db-4c60-8163-2c911f0f2b06')};
+    PNIO_CONFIG_STATUS_ACTIVE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('8a60f607-c564-4bea-bdc3-9aa1ccdea4e0')};
+    PNIO_CONFIG_STATUS_READY : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('be9a7058-1eac-478c-bef0-7a6cd14e1962')};
+    PNIO_CONFIG_STATUS_CFG_FAULT : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('32dcbc84-159c-4656-b263-07fcc24eaf26')};
+    PNIO_FORCE_FAILSAFE : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd145') } {Id('0f51ba8c-9b82-4c57-b345-4eb4c6cce82c')};
+    PNIO_FORCE_PRIMARY : BOOL { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd159') } {Id('c9cfecee-20b0-401c-b0f0-32436c2bc139')};
+    IP_ACTIVE_SOCKETS AT %MW1.30000 : UINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('b73033a3-4f97-45ff-b1a1-11bff983be0b')};
+    TLS_ACTIVE_SOCKETS AT %MW1.30100 : UINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('9501018c-2b53-47b9-8e7b-19e05b6acdcb')};
+    HMI_STATUS2 : HMI_STATUS_TYPE2 { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('4d43497f-b7e9-447c-a3bf-a6b00da7e81e')};
+    HMI_CONTROL : HMI_CONTROL_TYPE { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd151') } {Id('d033804e-1401-4178-b939-a23b98e9086a')};
+    EIPD_INPUTS : EIPD_IO_ARRAY { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('a83ebf18-f00c-4d68-8975-7ad7b8bb30c7')};
+    EIPD_OUTPUTS : EIPD_IO_ARRAY { SystemVariable, Assignable(IsWritable := True), CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), Origin('epd153') } {Id('fb45dab1-8715-4e3c-b19e-f4ea58fa19a9')};
+    EIPD_VALID_DATA_CYCLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('fb9e45c0-fbb0-462a-8ac8-15b1ae2e59aa')};
+    EIPD_PEER_IDLE : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('1b712043-4074-487e-9da9-0fcf37729147')};
+    EIPD_PEER_RUN : BOOL { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('683e471c-7128-4f4a-8a20-e4ca18b68a8a')};
+    EIPD_OUTPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('20e3645b-2b8f-4dc0-9741-988c2e34431e')};
+    EIPD_INPUTS_LENGTH : WORD { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('06da21cf-f321-4a6a-8613-e04eefbb7819')};
+    PLC_CRC_PRJ AT %ML1.10000 : ULINT { SystemVariable, CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4') } {Id('a7f664b7-5db0-4cdd-9eff-46885ffc8f6a')};
 END_VAR
