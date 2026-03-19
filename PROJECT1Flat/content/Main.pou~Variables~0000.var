@@ -1,2 +1,9 @@
 { CustomGroupDefinition('a04e0da4-75a3-431c-a769-2ffcda83b779', '') }
 
+VAR
+    x1_y1 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('0aefda20-c8d4-4e31-b2a9-5ccf96fa38e1')}; (*координаты начала измерения *)
+    x2_y2 : INT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f8ac108f-45d3-4bcf-9dd1-57b71f577375')}; (*координаты конца измерения *)
+    distancePx : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('7efe5e10-216b-4b60-a300-cbd171f59890')}; (*результат в пикселях *)
+    distanceCm : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('d3f66f1a-1db6-4720-a3bd-17bfde7a255f')}; (*результат в сантиметрах*)
+    scaleFactor : REAL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('376509d9-e5c6-43e0-9d4a-998c03fe84bf')}; (*коэффициент сколько пикселей в см*)
+END_VAR

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DevInstDoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/Projekte/PC_Worx_Next/XML/Schemas/DevInst.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <DevInst uuid="6cc52810-95e2-42f9-b06a-628e1de0aa14">
-    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/d83e72bc-eb53-4047-b779-a70756c8a100/7805fb2c-6171-44d4-ba7b-ffff65440dec" />
+  <DevInst uuid="d79c6d15-0a0b-4666-b314-2801556c3136">
+    <TInfo uri="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/d83e72bc-eb53-4047-b779-a70756c8a100/b6f733f0-ed92-492b-b41c-26bcef241ee0" />
     <InstVal xPath="/InstanceObjList/Obj[@uID='base00' type='Generic:Function']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="/InstanceObjList/Obj[@uID='base01' type='Generic:Location']" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
     <InstVal xPath="/InstanceObjList/Obj[@uID='base02' type='AmlApcStationName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D313135322D31]</InstVal>
-    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/67de4dd0-864f-4c90-bb3d-cb6a78e0a90b</InstVal>
+    <InstVal xPath="Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/efa4d6fe-6800-4466-b9d3-9d3a161abbc2</InstVal>
     <InstVal xPath="Generic:FormattedTypeNameWithoutVersion" Type="System.String">AXC F 1152</InstVal>
-    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXC F 1152 Rev. &gt;= 00/2024.0.0</InstVal>
-    <InstVal xPath="AutomationML:DeviceId" Type="System.String">9d2dbe56-caa3-4d7c-80a4-f32f0e316bbe</InstVal>
-    <InstVal xPath="AutomationML:RackId" Type="System.String">f17a3056-1e1c-4edb-9a03-844f7bcd0c2d</InstVal>
-    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">32c96634-6a9d-45e6-b8ec-6094520b013c</InstVal>
-    <InstVal xPath="AutomationML:TagTableId" Type="System.String">a412476d-e85d-4450-b6b0-cfb31eeb7795</InstVal>
+    <InstVal xPath="Generic:FormattedTypeName" Type="System.String">AXC F 1152 Rev. &gt;= 00/2023.0.0</InstVal>
+    <InstVal xPath="AutomationML:DeviceId" Type="System.String">b015a869-01d9-4e81-b090-a08e70c5dab9</InstVal>
+    <InstVal xPath="AutomationML:RackId" Type="System.String">42b98078-ebf6-4a21-884d-e05831b46b01</InstVal>
+    <InstVal xPath="AutomationML:DeviceItemId" Type="System.String">8db4bb21-6ee4-42ef-bad2-c073195ea19b</InstVal>
+    <InstVal xPath="AutomationML:TagTableId" Type="System.String">57b87e19-1256-4e46-ade7-4bfe3fd01298</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_1' type='ESM:Instance0']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='o6_2' type='PLCnext:TaskProperties']" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/L7ObjList/Obj[@uID='oe6_evts' type='PLCnext:Events']" Type="Ade.Fdcml.Core.StringAscii">Arp.Plc.Esm.OnColdStart</InstVal>
@@ -67,7 +67,7 @@
     <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pddi1]" Type="System.String">RTC</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pddi2]" Type="System.String">DEVICE_STATE</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/PDList/PD[@uid=pddi4]" Type="System.String">USER_PARTITION</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/214a17d8-4b7b-4a51-be18-829942601069</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_1']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/2e8040c1-7799-423e-982d-122ea8dd3387</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_1']/Generic:FormattedTypeName" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_2']/PDList/PD[@uid=epd040]" Type="System.String">PND_S1_PLC_RUN</InstVal>
@@ -145,13 +145,12 @@
     <InstVal xPath="//Layer7[@uID='L7_7']/PDList/PD[@uid=eip007]" Type="System.String">EIPD_INPUTS_LENGTH</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_7']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_7']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_7']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/77d52c41-455a-4732-9205-118da7717091</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_7']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e05a8c9e-69d4-4eec-a79c-7eebbbf35b3f</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi1' type='HMI:ProfileVersion']" Type="Ade.Fdcml.Core.StringAscii">1.0.0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi2' type='HMI:HttpPort']" Type="Ade.Fdcml.Core.Unsigned16">443</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmirest' type='HMI:EnableRestIF']" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi3' type='HMI:SimHttpPort']" Type="Ade.Fdcml.Core.Unsigned16">443</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi4' type='HMI:SessionTimeout']" Type="Ade.Fdcml.Core.Unsigned32">5000</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi13' type='HMI:DataTimeout']" Type="Ade.Fdcml.Core.Unsigned32">5000</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi5' type='HMI:DataPollInterval']" Type="Ade.Fdcml.Core.Unsigned32">250</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi10' type='HMI:AccessRights']" Type="Ade.Fdcml.Core.Unsigned8">2</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/L7ObjList/Obj[@uID='hmi11' type='SysVarUpdateTask']" Type="Ade.Fdcml.Core.String">[UTF-8;]</InstVal>
@@ -160,10 +159,7 @@
     <InstVal xPath="//Layer7[@uID='L7_3']/PDList/PD[@uid=hmipd002]" Type="System.String">HMI_CONTROL</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_3']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_3']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e957d9fb-afbf-496a-b219-93a4607490b4</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_10']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_10']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_10']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/eadad84f-447b-47d0-afa8-84068b41e65a</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_3']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/b7a8c9df-03c0-4130-8a5f-7cea066b449f</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaNodeName']/Current" Type="Ade.Fdcml.Core.StringAscii">axc-f-1152-1</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaServerCertificateType']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.ServerCertificate.SelfSigned</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSubjectAlternativeNameType_1']/Current" Type="Ade.Fdcml.Core.StringAscii">OpcUAConfigurationDocument.ServerCertificate.SelfSigned.SubjectAlternativeName[1].NotSet</InstVal>
@@ -202,7 +198,7 @@
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationEnabled']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationPort']/Current" Type="Ade.Fdcml.Core.Unsigned16">52050</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationPortEnabled']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationMaxSessionCount']/Current" Type="Ade.Fdcml.Core.Unsigned16">3</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationMaxSessionCount']/Current" Type="Ade.Fdcml.Core.Unsigned16">16</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaSpecificationMaxSessionCountEnabled']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaPublishedFoldersPublishedFolderEnabled_1']/Current" Type="Ade.Fdcml.Core.Boolean">False</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaPublishedFoldersPublishedFolderfolderName_1']/Current" Type="Ade.Fdcml.Core.StringAscii"></InstVal>
@@ -285,7 +281,7 @@
     <InstVal xPath="//Layer7[@uID='L7_5']/ParaList/Para[@uID='opcuaClientModuleCallTimeout']/Current" Type="Ade.Fdcml.Core.Unsigned64">10000</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_5']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_5']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/c90875c4-8976-44b6-9028-d34b7815c425</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_5']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/0ddb1e41-b432-486e-8fcd-b7dfad670674</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm03' type='PN:LLDPNoDEnabled']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm04' type='PN:LLDPNoDUIEnabled']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/InstanceObjList/Obj[@uID='pnm05' type='PN:LLDPNoDEnabledLastValue']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
@@ -315,9 +311,9 @@
     <InstVal xPath="//Layer7[@uID='L7_4']/PDList/PD[@uid=pncpd9]" Type="System.String">PNIO_FORCE_FAILSAFE</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_4']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/425077e1-d568-47e8-988b-cd9c0fcda017</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:IoSystemId" Type="System.String">73f72a34-b317-4f6b-b49d-0d959a39007d</InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:SubnetId" Type="System.String">818dd4b9-b5de-46bd-ae49-6ad44a5959b8</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/a19dde1a-df1f-40a1-9a2a-2efce432f8ca</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:IoSystemId" Type="System.String">91627f3a-0c3c-4e99-891b-283c6d7df02b</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_4']/AutomationML:SubnetId" Type="System.String">20d89629-8bdc-4720-aee3-c9c6977fb1fd</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:CycleTime" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:ChangeTime" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/AXLF:InDelay" Type="Ade.Fdcml.Core.Unsigned32">0</InstVal>
@@ -340,7 +336,7 @@
     <InstVal xPath="//Layer7[@uID='L7_ax']/PDList/PD[@uid=axiod12]" Type="System.String">AXIO_DIAG_STATUS_REG_PW</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_ax']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/a60677bc-55bd-4998-9172-06e87de1d4ff</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_ax']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/0e53aa67-7753-427e-9df5-1ae842efcb7d</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_ax']/LayerEnabled" Type="Ade.Fdcml.Core.Bit">True</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_8']/L7ObjList/Obj[@uID='ilo4' type='IB:ProfileVersion']" Type="Ade.Fdcml.Core.StringAscii">1.0.0</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_8']/L7ObjList/Obj[@uID='ilo5' type='IB:Baudrate']" Type="Ade.Fdcml.Core.Unsigned16">500</InstVal>
@@ -370,25 +366,25 @@
     <InstVal xPath="//Layer7[@uID='L7_8']/PDList/PD[@uid=pdib17]" Type="System.String">IB_DIAG_PARAM_2_REG_LOW</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_8']/Generic:FormattedTypeNameWithoutVersion" Type="System.String"></InstVal>
     <InstVal xPath="//Layer7[@uID='L7_8']/Generic:FormattedTypeName" Type="System.String"></InstVal>
-    <InstVal xPath="//Layer7[@uID='L7_8']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/35037a1f-d39f-46e8-a001-acb21e41c1c7</InstVal>
+    <InstVal xPath="//Layer7[@uID='L7_8']/Generic:Uri" Type="System.String">adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/983d550f-2234-4965-b8bf-fad2817b4ecf</InstVal>
     <InstVal xPath="//Layer7[@uID='L7_8']/LayerEnabled" Type="Ade.Fdcml.Core.Bit">False</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/L34ObjList/Obj[@uID='obj10' type='IP:DomainPrefix']" Type="Ade.Fdcml.Core.StringAscii">axc-f-1152</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/L34ObjList/Obj[@uID='obj12' type='IP:ProfileVersion']" Type="Ade.Fdcml.Core.StringAscii">1.0.0</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/L34ObjList/Obj[@uID='obj13' type='SEC:Protocol']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/L34ObjList/Obj[@uID='obj14' type='SEC:AuthMethod']" Type="Ade.Fdcml.Core.Unsigned16">1</InstVal>
-    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.1.10</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip100' type='IP:IpAddress']" Type="Ade.Fdcml.Core.Ipv4">192.168.0.2</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip101' type='IP:DnsName']" Type="Ade.Fdcml.Core.StringAscii">axc-f-1152-1</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip102' type='IP:ExtendedDomainName']" Type="Ade.Fdcml.Core.String">[UTF-8;6178632D662D313135322D31]</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip103' type='IP:DefaultGateway']" Type="Ade.Fdcml.Core.Ipv4"></InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip104' type='IP:SubnetMask']" Type="Ade.Fdcml.Core.Ipv4">255.255.255.0</InstVal>
     <InstVal xPath="//Layer3-4[@uID='L34_1']/InstanceObjList/Obj[@uID='ip105' type='IP:IndividualSettings']" Type="Ade.Fdcml.Core.Boolean">True</InstVal>
-    <InstVal xPath="//Layer3-4[@uID='L34_1']/AutomationML:NodeId" Type="System.String">127b5f21-eac1-4bad-8d43-1341229e9e40</InstVal>
+    <InstVal xPath="//Layer3-4[@uID='L34_1']/AutomationML:NodeId" Type="System.String">3276fa65-0e6c-4316-9a99-733e30836bc3</InstVal>
     <InstVal xPath="//Layer1-2[@uID='L12_1']/L12ObjList/Obj[@uID='ext1' type='AXC:ExtensionRight']" Type="Ade.Fdcml.Core.BitString8">00</InstVal>
     <InstVal xPath="//Layer1-2[@uID='L12_1']/InstanceObjList/Obj[@uID='eth100' type='Eth:MacAddress']" Type="Ade.Fdcml.Core.MacAddress"></InstVal>
-    <InstVal xPath="//Layer1-2[@uID='L12_1']/AutomationML:CommunicationInterfaceId" Type="System.String">54ad302e-2c06-4c0d-9628-2c999ed4c21b</InstVal>
-    <InstVal xPath="/EndPoint[@uID='6cc52810-95e2-42f9-b06a-628e1de0aa14.L12_1.pcep1']/Eth:PortNumber" Type="Ade.Fdcml.Core.Unsigned32">1</InstVal>
-    <InstVal xPath="/EndPoint[@uID='6cc52810-95e2-42f9-b06a-628e1de0aa14.L12_1.pcep1']/AutomationML:PortId" Type="System.String">4d140b1c-070a-4ad7-9306-b7545f873fda</InstVal>
-    <InstVal xPath="/EndPoint[@uID='6cc52810-95e2-42f9-b06a-628e1de0aa14.L12_1.pcep2']/Eth:PortNumber" Type="Ade.Fdcml.Core.Unsigned32">2</InstVal>
-    <InstVal xPath="/EndPoint[@uID='6cc52810-95e2-42f9-b06a-628e1de0aa14.L12_1.pcep2']/AutomationML:PortId" Type="System.String">bf22e52b-563d-4374-8b23-0aeb16213ddd</InstVal>
+    <InstVal xPath="//Layer1-2[@uID='L12_1']/AutomationML:CommunicationInterfaceId" Type="System.String">36c26db3-9d26-4b0d-a2fa-a9bb75c41fec</InstVal>
+    <InstVal xPath="/EndPoint[@uID='d79c6d15-0a0b-4666-b314-2801556c3136.L12_1.pcep1']/Eth:PortNumber" Type="Ade.Fdcml.Core.Unsigned32">1</InstVal>
+    <InstVal xPath="/EndPoint[@uID='d79c6d15-0a0b-4666-b314-2801556c3136.L12_1.pcep1']/AutomationML:PortId" Type="System.String">ae79878f-81b5-493c-9d61-97f72383873f</InstVal>
+    <InstVal xPath="/EndPoint[@uID='d79c6d15-0a0b-4666-b314-2801556c3136.L12_1.pcep2']/Eth:PortNumber" Type="Ade.Fdcml.Core.Unsigned32">2</InstVal>
+    <InstVal xPath="/EndPoint[@uID='d79c6d15-0a0b-4666-b314-2801556c3136.L12_1.pcep2']/AutomationML:PortId" Type="System.String">5ad9240f-675a-4484-bdf0-9898d8540807</InstVal>
   </DevInst>
 </DevInstDoc>

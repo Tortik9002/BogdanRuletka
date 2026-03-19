@@ -4,10 +4,16 @@
    <ContentType>Program</ContentType>
    <Kind>Program</Kind>
    <Usings></Usings>
-   <Id>c5fd955a-1a7e-4aab-b33e-d6c99290e689</Id>
+   <Id>e1cbe239-34fb-48b5-bc73-de51d9f590cd</Id>
    <ItemGroup>
       <VariableWorksheet>
-         <Id>f7aa2153-8b91-457c-b380-c933189d711f</Id>
+         <Id>bc71cb54-72e7-49d0-9c4a-fb2b80583101</Id>
       </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>4f16d795-bb95-42ee-84a7-71a1c4ded1da</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
    </ItemGroup>
 </Metadata>
