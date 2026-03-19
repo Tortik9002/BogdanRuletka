@@ -7,4 +7,5 @@ VAR_EXTERNAL
     Latch : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('9cd8c84c-1f63-42b0-874a-ae4c2a594128')}; (*Зафиксированная позиция (например, по кнопке "Запомнить длину" или по внешнему событию)*)
     Run_Stop : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8f4c83e2-2dcc-4bda-a96b-b8b4191d1e37')}; (*начало работы и конец*)
     func_1_Position_INC1 : UDINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4f5f77b0-1fa7-46b0-b3da-cdfd713e728d')}; (*текущая позиция *)
+    Position_CM : UDINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b7d997d4-34c8-4eac-b5db-1f5ade5e6601')}; (*знасчение в см*)
 END_VAR

@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NextResourceID>106</NextResourceID>
+  <NextResourceID>112</NextResourceID>
   <Languages ID="0" Name="Default" />
   <Resources ID="102" Name="Text2.Text">
     <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="106" Name="Text1.Text">
+    <Values LanguageID="0" LocalValue="Text" />
+  </Resources>
+  <Resources ID="107" Name="Text3.Text">
+    <Values LanguageID="0" LocalValue="Значение расстояния в импульсах" />
+  </Resources>
+  <Resources ID="108" Name="Text4.Text">
+    <Values LanguageID="0" LocalValue="Значение расстояния в сантиметрах" />
+  </Resources>
+  <Resources ID="109" Name="Button1.Text">
+    <Values LanguageID="0" LocalValue="Сброс" />
+  </Resources>
+  <Resources ID="110" Name="Text5.Text">
+    <Values LanguageID="0" LocalValue="Индикатор сброса данных" />
+  </Resources>
+  <Resources ID="111" Name="Text6.Text">
+    <Values LanguageID="0" LocalValue="Индикатор работы датчика" />
   </Resources>
 </ResourcesDocument>

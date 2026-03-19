@@ -5423,6 +5423,68 @@
         <ProgramInstance />
       </Role>
     </Datum>
+    <Datum Uuid="d024dcec-f206-4346-91f0-a87cc91a4d31">
+      <FunctionText />
+      <Role TypeName="Variable" ObjectId="63a6897c-9660-4b16-a5e8-133b865f6a89" SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e303fb44-96a7-4a68-be3d-e719000abe7a">
+        <Address />
+        <Comment>знасчение в см</Comment>
+        <DataType>UDINT</DataType>
+        <InitValue>UDINT#0</InitValue>
+        <IsConstant>False</IsConstant>
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>Position_CM</Name>
+        <Usage>Global</Usage>
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,Usage,DataType,InitValue,IsRetain,Comment,IsOpc,IsConstant,IsHmi,IsProficloud,IsRedundant" />
+      </Role>
+      <Role TypeName="HmiTag" ObjectId="b7711148-a37a-491d-886d-cd2e4d737cb2" SourceId="">
+        <IsReadOnly>False</IsReadOnly>
+        <Name>Position_CM</Name>
+        <Constraint TypeName="Ade.DataList.Constraints.Uncopyable, Ade.DataListImpl" Parameters="" />
+        <Constraint TypeName="Ade.DataList.Constraints.EditableAttributes, Ade.DataListImpl" Parameters="Name,IsReadOnly" />
+      </Role>
+    </Datum>
+    <Datum Uuid="8ebfa999-800a-4209-9cf0-b9a8af1c0042">
+      <FunctionText />
+      <Role TypeName="InPort" ObjectId="63a6897c-9660-4b16-a5e8-133b865f6a89" SourceId="cd54266f-8cf7-4605-8654-610975635d47.L7_2">
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <DataType>UDINT</DataType>
+        <Index />
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>Position_CM</Name>
+        <PortDataType>UDINT</PortDataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Program>Arp.Plc.Eclr / </Program>
+        <ProgramInstance />
+      </Role>
+    </Datum>
+    <Datum Uuid="327efe0e-d92f-4904-b88a-93cf64a96de0">
+      <FunctionText />
+      <Role TypeName="OutPort" ObjectId="63a6897c-9660-4b16-a5e8-133b865f6a89" SourceId="cd54266f-8cf7-4605-8654-610975635d47.L7_2">
+        <ComponentInstance>Arp.Plc.Eclr</ComponentInstance>
+        <DataType>UDINT</DataType>
+        <Index />
+        <IsHmi>False</IsHmi>
+        <IsOpc>False</IsOpc>
+        <IsProficloud>False</IsProficloud>
+        <IsRedundant>False</IsRedundant>
+        <IsRetain>False</IsRetain>
+        <Name>Position_CM</Name>
+        <PortDataType>UDINT</PortDataType>
+        <PortDataTypeDomain>Iec</PortDataTypeDomain>
+        <PortMultiplicity>1</PortMultiplicity>
+        <Program>Arp.Plc.Eclr / </Program>
+        <ProgramInstance />
+      </Role>
+    </Datum>
     <RoleGroupList RoleTypeName="Variable">
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e303fb44-96a7-4a68-be3d-e719000abe7a" ObjectId="fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24" DisplayName="Default" IsReadOnly="False">
         <RoleDatumUuid>9f918d6d-0f5e-4a06-89ac-84a13a0c616e</RoleDatumUuid>
@@ -5437,6 +5499,7 @@
         <RoleDatumUuid>e632766d-7375-4845-987b-10ca9c343714</RoleDatumUuid>
         <RoleDatumUuid>6c6f3941-4303-414b-b244-920c5ec67821</RoleDatumUuid>
         <RoleDatumUuid>cb6579b2-5f77-421a-b394-e6938951c08a</RoleDatumUuid>
+        <RoleDatumUuid>d024dcec-f206-4346-91f0-a87cc91a4d31</RoleDatumUuid>
       </RoleGroup>
       <RoleGroup SourceId="adeprojectref:///e639c0f9-db09-46f4-abf7-50216a13f220/606e2993-1c57-411c-b0d2-c57a13c52bbf/e303fb44-96a7-4a68-be3d-e719000abe7a" ObjectId="971398c9-e054-4349-a1d9-e00a1840c9f4" DisplayName="System Variables" IsReadOnly="True">
         <RoleDatumUuid>9e9bdde8-3dd4-4b3b-bace-2ea7f121d330</RoleDatumUuid>

@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Page" BorderWidth="0">
-  <References>
-    <Documents>
-      <Document Id="ee7a191a-db52-4084-aa95-fe86e551ffb4" NodeType="HmiPage" Name="Login" />
-    </Documents>
-  </References>
   <Layers>
     <Layer>
       <Objects>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>34</X>
-            <Y>202</Y>
+            <X>81</X>
+            <Y>200</Y>
           </Origin>
           <Location>
-            <X>34</X>
-            <Y>202</Y>
+            <X>81</X>
+            <Y>200</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -47,12 +42,12 @@
         </HmiObject>
         <HmiObject xsi:type="Ellipse" Rotation="0" ID="Shape1" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
           <Origin>
-            <X>308</X>
-            <Y>182</Y>
+            <X>505</X>
+            <Y>352</Y>
           </Origin>
           <Location>
-            <X>308</X>
-            <Y>182</Y>
+            <X>505</X>
+            <Y>352</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -94,12 +89,12 @@
         </HmiObject>
         <HmiObject xsi:type="Ellipse" Rotation="0" ID="Shape2" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
           <Origin>
-            <X>267</X>
-            <Y>338</Y>
+            <X>137</X>
+            <Y>350</Y>
           </Origin>
           <Location>
-            <X>267</X>
-            <Y>338</Y>
+            <X>137</X>
+            <Y>350</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -139,54 +134,120 @@
             <Height>75</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Ellipse" Rotation="0" ID="Shape3" Comment="кнопка вкл/выкл" IsTabSelectable="false" TabOrder="0" NextId="6" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>38</X>
-            <Y>333</Y>
+            <X>379</X>
+            <Y>199</Y>
           </Origin>
           <Location>
-            <X>38</X>
-            <Y>333</Y>
+            <X>379</X>
+            <Y>199</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
+          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+            <VariableInstance>
+              <Name>Position_CM</Name>
+            </VariableInstance>
+            <Expression xsi:type="SimpleSTExpression">
+              <ExpressionLine>Position_CM</ExpressionLine>
+            </Expression>
+          </Dynamic>
           <EnableSecurityScope>Always</EnableSecurityScope>
           <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
           <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
           <VisibleSecurityScope>Always</VisibleSecurityScope>
           <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
           <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
-          <Fill xsi:type="SolidFill" Color="#FFECEDED" />
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
           <DashStyle>
             <Offset>0</Offset>
             <Dashes />
           </DashStyle>
           <Size>
-            <Width>75</Width>
-            <Height>75</Height>
+            <Width>250</Width>
+            <Height>40</Height>
           </Size>
         </HmiObject>
-        <HmiObject xsi:type="Ellipse" Rotation="0" ID="Button2" Comment="reset" IsTabSelectable="false" TabOrder="0" NextId="43" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text3" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Значение расстояния в импульсах" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>147</X>
-            <Y>333</Y>
+            <X>81</X>
+            <Y>151</Y>
           </Origin>
           <Location>
-            <X>147</X>
-            <Y>333</Y>
+            <X>81</X>
+            <Y>151</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
-          <Action xsi:type="WriteValueAction" Gesture="Pressed" ID="A41" SourceType="Constant" SourceConstant="1">
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>334.99999999999994</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text4" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Значение расстояния в сантиметрах" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>379</X>
+            <Y>152</Y>
+          </Origin>
+          <Location>
+            <X>379</X>
+            <Y>152</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>334.99999999999994</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Сброс" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
+          <Origin>
+            <X>126</X>
+            <Y>449</Y>
+          </Origin>
+          <Location>
+            <X>126</X>
+            <Y>449</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <Action xsi:type="WriteValueAction" Gesture="Pressed" ID="A0" SourceType="Constant" SourceConstant="1">
             <DestinationVariableInstance>
               <Name>Reset_out</Name>
             </DestinationVariableInstance>
           </Action>
-          <Action xsi:type="WriteValueAction" Gesture="Released" ID="A42" SourceType="Constant" SourceConstant="0">
+          <Action xsi:type="WriteValueAction" Gesture="Released" ID="A1" SourceType="Constant" SourceConstant="0">
             <DestinationVariableInstance>
               <Name>Reset_out</Name>
             </DestinationVariableInstance>
@@ -203,8 +264,75 @@
             <Dashes />
           </DashStyle>
           <Size>
-            <Width>75</Width>
-            <Height>75</Height>
+            <Width>100</Width>
+            <Height>50</Height>
+          </Size>
+          <FillWhenDown xsi:type="SolidFill" Color="#FF8ACCD1" />
+          <ImageArea>
+            <Width>50</Width>
+            <Height>50</Height>
+          </ImageArea>
+          <CornerRadii>
+            <Width>0</Width>
+            <Height>0</Height>
+          </CornerRadii>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text5" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Индикатор сброса данных" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>68</X>
+            <Y>308</Y>
+          </Origin>
+          <Location>
+            <X>68</X>
+            <Y>308</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>334.99999999999994</Width>
+            <Height>40</Height>
+          </Size>
+        </HmiObject>
+        <HmiObject xsi:type="HmiText" Rotation="0" ID="Text6" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Индикатор работы датчика" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+          <Origin>
+            <X>431</X>
+            <Y>310</Y>
+          </Origin>
+          <Location>
+            <X>431</X>
+            <Y>310</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#00FFFFFF" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>334.99999999999994</Width>
+            <Height>40</Height>
           </Size>
         </HmiObject>
       </Objects>
