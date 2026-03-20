@@ -209,6 +209,16 @@
          <TypeRevision>03/1.20</TypeRevision>
          <ParentIndex>2</ParentIndex>
       </Folder>
+      <Folder Include="Watch Window">
+         <Id>b9b58606-97d7-472f-845a-fec41705ae11</Id>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Date_Time_convert.pou">
+         <Id>5753333e-b34b-4748-a462-ebdbee6452c2</Id>
+         <FolderType>PouFolder</FolderType>
+         <ReturnType>STRING</ReturnType>
+         <ParentIndex>6</ParentIndex>
+      </Folder>
    </ItemGroup>
    <ItemGroup>
       <TopologyDocument Include="Hardware\67668339-4bfd-4017-8fac-0590c8a9da2d.topology">
@@ -293,6 +303,15 @@
          <Extension>.usermeta</Extension>
          <ParentIndex>2</ParentIndex>
       </UserMetadata>
+      <UserMetadata Include="Logical Elements\HMI Symbol.hmisymbol\VersionHistory.usermeta">
+         <Id>90d3b86e-f5e1-43e8-8eb9-019160890cf8</Id>
+         <ParentIndex>6</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Date_Time_convert.pou\VersionHistory.usermeta">
+         <Id>19ecd6e0-b4d6-4919-8f0a-1cd51bab83b1</Id>
+         <Extension>.usermeta</Extension>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
    </ItemGroup>
    <ItemGroup>
       <UserMetadataDescription Include="Hardware\Description.en.html">
@@ -309,6 +328,23 @@
       </UserMetadataDescription>
       <UserMetadataDescription Include="Logical Elements\main.pou\Description.rtf">
          <Id>156a2da3-bf34-4d76-86c4-538e8eff22b7</Id>
+         <Extension>.rtf</Extension>
+         <ParentIndex>4</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\HMI Symbol.hmisymbol\Description.en.html">
+         <Id>aa1f6ce4-016d-462a-9eae-7d4d6da8fef9</Id>
+         <Visible>False</Visible>
+         <Extension>.html</Extension>
+         <Culture>en</Culture>
+         <ParentIndex>7</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Date_Time_convert.pou\Description.html">
+         <Id>1d50368d-1388-4aea-bc4e-7ef874201ae9</Id>
+         <Extension>.html</Extension>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadataDescription>
+      <UserMetadataDescription Include="Logical Elements\Date_Time_convert.pou\Description.rtf">
+         <Id>7462e227-23fd-4e92-8d4f-38c99a9c7e36</Id>
          <Extension>.rtf</Extension>
          <ParentIndex>4</ParentIndex>
       </UserMetadataDescription>
@@ -549,6 +585,11 @@
          <Extension>.var</Extension>
          <ParentIndex>1</ParentIndex>
       </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Date_Time_convert.pou\Variables.var">
+         <Id>8f25af93-1f38-4a9c-9e8b-13c788e804b5</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
    </ItemGroup>
    <ItemGroup>
       <MetaLibrary Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\RES_109718FC645348A0A040A10CD4325DC7\Arp.Plc.Eclr.libmeta">
@@ -715,6 +756,11 @@
          <Visible>False</Visible>
          <ParentIndex>3</ParentIndex>
       </HmiVariables>
+      <HmiVariables Include="Logical Elements\HMI Symbol.hmisymbol\Variables.hmivar">
+         <Id>6d267c76-3dab-4c85-b7e5-574543b93a97</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </HmiVariables>
    </ItemGroup>
    <ItemGroup>
       <HmiNavigation Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\HMI_Server\Application\Navigation.hminav">
@@ -781,6 +827,11 @@
          <Extension>.meta</Extension>
          <ParentIndex>0</ParentIndex>
       </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Date_Time_convert.pou\Metadata.meta">
+         <Id>bc0c60dc-89c7-4a55-a444-69e15c275199</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
    </ItemGroup>
    <ItemGroup>
       <LocalResourcesListDocument Include="Logical Elements\main.pou\Resources.locreslst">
@@ -797,6 +848,18 @@
       </LocalResourcesListDocument>
       <LocalResourcesListDocument Include="Hardware\CFG_EFA4D6FE68004466B9D39D3A161ABBC2\ALARM_Server\Resources.locreslst">
          <Id>0c9cff8f-08bf-407a-aafc-d24cd816fea9</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\HMI Symbol.hmisymbol\Resources.locreslst">
+         <Id>6664abb4-38a7-471b-ab2e-69e9b4b8f9a3</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </LocalResourcesListDocument>
+      <LocalResourcesListDocument Include="Logical Elements\Date_Time_convert.pou\Resources.locreslst">
+         <Id>b25d7dbb-a0e1-4676-ab15-98c8e66a7f97</Id>
          <DisplayName>Resources</DisplayName>
          <Visible>False</Visible>
          <ParentIndex>6</ParentIndex>
@@ -839,6 +902,24 @@
          <Visible>False</Visible>
          <ParentIndex>5</ParentIndex>
       </LocalResources>
+      <LocalResources Include="Logical Elements\HMI Symbol.hmisymbol\Definition.locres">
+         <Id>a3ac697f-e27f-4cf8-8e7e-c6c34403cb48</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Date_Time_convert.pou\User.locres">
+         <Id>cd7684c7-64ac-4ddf-bec0-ecd6f4b1b90d</Id>
+         <DisplayName>User</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>7</ParentIndex>
+      </LocalResources>
+      <LocalResources Include="Logical Elements\Date_Time_convert.pou\Variables.var.locres">
+         <Id>c7037c09-b45a-4f86-b342-a40427ee160c</Id>
+         <DisplayName>Resources</DisplayName>
+         <Visible>False</Visible>
+         <ParentIndex>8</ParentIndex>
+      </LocalResources>
    </ItemGroup>
    <ItemGroup>
       <CodeWorksheet Include="Logical Elements\main.pou\Code.st">
@@ -846,6 +927,16 @@
          <Extension>.st</Extension>
          <Type>.st</Type>
          <ParentIndex>8</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Watch Window\Document.ww">
+         <Id>cf7e9912-bfba-4660-91de-3310f5333130</Id>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Date_Time_convert.pou\Code.st">
+         <Id>8cf6a5c1-2a22-4370-8528-67fb8c5394ce</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>5</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -922,6 +1013,10 @@
          <AutoGenerated>true</AutoGenerated>
          <Visible>True</Visible>
          <ParentIndex>3</ParentIndex>
+      </DataTypeWorksheet>
+      <DataTypeWorksheet Include="Logical Elements\MyDatetipe.dt">
+         <Id>c7c980ff-c170-4572-b061-e36a946f2148</Id>
+         <ParentIndex>4</ParentIndex>
       </DataTypeWorksheet>
    </ItemGroup>
    <ItemGroup>
@@ -1064,5 +1159,36 @@
          <ProtocolName>AXLF</ProtocolName>
          <ParentIndex>2</ParentIndex>
       </ParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbol Include="Logical Elements\HMI Symbol.hmisymbol">
+         <Id>5aac9a7c-16ba-48b0-b728-27152a308ffe</Id>
+         <DisplayName>HMI Symbol</DisplayName>
+         <DefinitionId>6580288e-0c22-46be-aa02-87aa509c42a4</DefinitionId>
+         <ParametersId>0d4b61bd-07c9-4b3b-99d3-16f4d965a552</ParametersId>
+         <ParentIndex>5</ParentIndex>
+      </HmiSymbol>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolDefinition Include="Logical Elements\HMI Symbol.hmisymbol\Definition">
+         <Id>6580288e-0c22-46be-aa02-87aa509c42a4</Id>
+         <DisplayName>HMI Symbol</DisplayName>
+         <Extension>.hmisymboldef</Extension>
+         <ParentIndex>0</ParentIndex>
+      </HmiSymbolDefinition>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolParameters Include="Logical Elements\HMI Symbol.hmisymbol\Parameters">
+         <Id>0d4b61bd-07c9-4b3b-99d3-16f4d965a552</Id>
+         <DisplayName>Parameters</DisplayName>
+         <Extension>.hmisymbolparams</Extension>
+         <ParentIndex>1</ParentIndex>
+      </HmiSymbolParameters>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiSymbolThumbnail Include="Logical Elements\HMI Symbol.hmisymbol\Thumbnail">
+         <Id>43e9307f-d1c4-41c4-b41a-8fb680bd8dda</Id>
+         <ParentIndex>2</ParentIndex>
+      </HmiSymbolThumbnail>
    </ItemGroup>
 </Project>

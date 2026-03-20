@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WatchWindow>
+   <Memento>
+      <RecipeMementos>{"ScrollPosition":"6","Caption":"[default]","Editable":false,"ExpandedWatchItems":["RTC@RES_109718FC645348A0A040A10CD4325DC7"],"TopLevelWatchItems":[{"ItemId":"RES_109718FC645348A0A040A10CD4325DC7.RTC","DisplayName":"RTC","DataType":"RTC_TYPE","Domain":"IEC","SetValue":""}],"FormattedWatchItems":[],"IsActive":true}</RecipeMementos>
+   </Memento>
+</WatchWindow>

@@ -1,0 +1,10 @@
+
+TYPE
+    MyStruct : STRUCT          
+     Recording_time: STRING;  // время
+     Position_CM: UDINT; // растояние 
+     Cell_status: BOOL; // статус ячейки
+    END_STRUCT
+        MyArrayOfStruct : ARRAY[0..10] OF MyStruct;
+    
+END_TYPE

@@ -9,3 +9,31 @@ VAR_EXTERNAL
     func_1_Position_INC1 : UDINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('4f5f77b0-1fa7-46b0-b3da-cdfd713e728d')}; (*текущая позиция *)
     Position_CM : UDINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('b7d997d4-34c8-4eac-b5db-1f5ade5e6601')}; (*знасчение в см*)
 END_VAR
+
+VAR
+    Recording_time : TIME { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('c6838ba4-7614-45ea-99f6-e93045879d5d')};
+    Сell_status : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('49b1176f-95ec-44c5-9cda-bb1b40c29db7')};
+    LogArray : BOOL { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ca4ea439-0217-4429-bf9e-478d1256b00a')};
+END_VAR
+
+VAR_EXTERNAL
+    MyArrayOfStruct : MyArrayOfStruct { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('312955e2-e9a2-40c5-981a-7d2a8dfbf4c9')};
+END_VAR
+
+VAR
+    I : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f31d8c1d-9abb-4392-a33b-d2549dac5b54')};
+    j : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('feacf6fb-6899-49e6-893b-7d347cadf1fe')};
+    A : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('87fa5600-de46-431b-bf8f-979a0e7bda0f')};
+    B : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('6069e82b-f59f-456c-8db9-1511b8f4a88f')};
+    C : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('f134d124-a3fb-41ad-8c39-c3840f6a5603')};
+    F : DINT { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('55ba3fd9-eafe-44bf-809e-a0120f0e23f8')};
+    Time_1 : TIME { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('ba8263a8-2008-465c-aba4-6d37c098d6d7')};
+END_VAR
+
+VAR_EXTERNAL
+    RTC : RTC_TYPE { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('8ffb6075-e787-45fd-af49-476c5c2a91fc')};
+END_VAR
+
+VAR
+    Date_time : STRING { CustomGroupReference('a04e0da4-75a3-431c-a769-2ffcda83b779') } {Id('167eb90f-6c24-4b8b-a9ee-79d90d71352a')};
+END_VAR

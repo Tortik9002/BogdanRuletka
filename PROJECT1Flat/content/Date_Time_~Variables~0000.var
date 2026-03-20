@@ -1,0 +1,9 @@
+{ CustomGroupDefinition('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24', '') }
+
+VAR_INPUT
+    RTC : RTC_TYPE { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('81bc7f16-61de-4495-b5f7-f501b55840d9')};
+END_VAR
+
+VAR
+    Date_time : STRING { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('68861f9b-703d-400f-a231-a889e5c63e0c')};
+END_VAR

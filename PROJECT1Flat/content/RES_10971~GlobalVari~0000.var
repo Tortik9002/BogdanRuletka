@@ -15,6 +15,8 @@ VAR_GLOBAL
     Reset_out : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('aa8b4a81-fa1c-42cb-a125-1f5da3f4ec85')}; (*Сброс позиции обнуление*)
     Button_Reset_in : BOOL { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('bcb8108a-95be-494b-b4ed-d6cfaaf4caca')};
     Position_CM : UDINT { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('63a6897c-9660-4b16-a5e8-133b865f6a89')}; (*знасчение в см*)
+    MyArrayOfStruct : MyArrayOfStruct { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('c682d824-3df1-4132-8f55-c3ce22dfc89d')};
+    MyArrayOfStruct1 : MyArrayOfStruct { CustomGroupReference('fb84caa8-36a3-47d9-8bf0-95ff0e8a7b24') } {Id('76493533-e498-4fbd-99d3-54bcd3529da5')};
     PND_S1_PLC_RUN : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('3599af47-94c8-4e99-a678-710b163ba1f8')}; (*Higher level PLC in RUN*)
     PND_S1_VALID_DATA_CYCLE : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('659b85e6-4513-42a4-bac9-663ad70a3858')}; (*Connection to Profinet-Controller*)
     PND_S1_OUTPUT_STATUS_GOOD : BOOL { CustomGroupReference('971398c9-e054-4349-a1d9-e00a1840c9f4'), SystemVariable } {Id('d5325260-cf75-439c-93a2-60893c2ea11c')}; (*IOP status of the higher-level control system*)

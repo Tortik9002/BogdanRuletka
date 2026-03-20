@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Page" BorderWidth="0">
+  <References>
+    <Documents>
+      <Document Id="e2baae61-7c53-4455-b293-d0a4ae35eaa2" NodeType="HmiSymbol" Name="Bar Graph" />
+      <Document Id="8683bb8a-3e8f-40c1-bc59-d51187bb5b6a" NodeType="HmiSymbol" Name="Vertical Gauge" />
+      <Document Id="75bed42a-53b5-42b9-9ff7-8c9ca9e57c11" NodeType="HmiSymbol" Name="Spin Button" />
+      <Document Id="8503a5d6-94b7-4d22-9f8c-1fc9d9d1633a" NodeType="HmiSymbol" Name="Three State Slide Button" />
+      <Document Id="5f14ba3d-615e-4f0e-b080-e3c41086e1c1" NodeType="HmiSymbol" Name="Bar Graph Horizontal" />
+      <Document Id="f805fd73-4bf2-430f-9057-03a65620e45d" NodeType="HmiSymbol" Name="Horizontal Gauge" />
+      <Document Id="e8ef11bb-70a3-432f-a4ff-844394d402d1" NodeType="HmiSymbol" Name="Navigation Bar" />
+      <Document Id="19f8bb3d-1f36-499f-b985-2f06896e5359" NodeType="HmiSymbol" Name="Radial Gauge" />
+      <Document Id="cf976797-e4be-4ba2-a13d-9627f222493e" NodeType="HmiSymbol" Name="Radio Button" />
+      <Document Id="277e5fd3-bfc9-4961-8a49-6504a4959271" NodeType="HmiSymbol" Name="Rotary Switch 2 State" />
+      <Document Id="868b68ee-2325-47dc-8890-a781ea77c82d" NodeType="HmiSymbol" Name="Rotary Switch 3 State" />
+      <Document Id="11b83383-9242-430f-b7b3-1e00178e8e99" NodeType="HmiSymbol" Name="Slider" />
+      <Document Id="ccd1d8fd-64c7-4223-a87b-0291d26f2b97" NodeType="HmiSymbol" Name="Slider Horizontal" />
+      <Document Id="5aac9a7c-16ba-48b0-b728-27152a308ffe" NodeType="HmiSymbol" Name="HMI Symbol" />
+    </Documents>
+  </References>
   <Layers>
     <Layer>
       <Objects>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>81</X>
-            <Y>200</Y>
+            <X>46</X>
+            <Y>473</Y>
           </Origin>
           <Location>
-            <X>81</X>
-            <Y>200</Y>
+            <X>46</X>
+            <Y>473</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -42,12 +60,12 @@
         </HmiObject>
         <HmiObject xsi:type="Ellipse" Rotation="0" ID="Shape1" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
           <Origin>
-            <X>505</X>
-            <Y>352</Y>
+            <X>529</X>
+            <Y>620</Y>
           </Origin>
           <Location>
-            <X>505</X>
-            <Y>352</Y>
+            <X>529</X>
+            <Y>620</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -89,12 +107,12 @@
         </HmiObject>
         <HmiObject xsi:type="Ellipse" Rotation="0" ID="Shape2" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
           <Origin>
-            <X>137</X>
-            <Y>350</Y>
+            <X>43</X>
+            <Y>627</Y>
           </Origin>
           <Location>
-            <X>137</X>
-            <Y>350</Y>
+            <X>43</X>
+            <Y>627</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -136,18 +154,18 @@
         </HmiObject>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>379</X>
-            <Y>199</Y>
+            <X>382</X>
+            <Y>469</Y>
           </Origin>
           <Location>
-            <X>379</X>
-            <Y>199</Y>
+            <X>382</X>
+            <Y>469</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
             <Y>0</Y>
           </TransformCenter>
-          <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+          <Dynamic xsi:type="TextDynamic" Format="fixed3" TargetProperty="Text">
             <VariableInstance>
               <Name>Position_CM</Name>
             </VariableInstance>
@@ -173,12 +191,12 @@
         </HmiObject>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text3" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Значение расстояния в импульсах" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>81</X>
-            <Y>151</Y>
+            <X>46</X>
+            <Y>415</Y>
           </Origin>
           <Location>
-            <X>81</X>
-            <Y>151</Y>
+            <X>46</X>
+            <Y>415</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -202,12 +220,12 @@
         </HmiObject>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text4" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Значение расстояния в сантиметрах" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>379</X>
-            <Y>152</Y>
+            <X>374</X>
+            <Y>417</Y>
           </Origin>
           <Location>
-            <X>379</X>
-            <Y>152</Y>
+            <X>374</X>
+            <Y>417</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -231,12 +249,12 @@
         </HmiObject>
         <HmiObject xsi:type="Button" Rotation="0" ID="Button1" IsTabSelectable="true" TabOrder="0" NextId="2" LineColor="#FFCCD0D2" LineWidth="1" Text="Сброс" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" IsLatching="false" ImpulseTime="0" ImagePlacement="Left" ImageAreaWidthUnits="Percent" ImageAreaHeightUnits="Percent" Margin="0" ImageWhenDownId="00000000-0000-0000-0000-000000000000" ImageScaling="Fill">
           <Origin>
-            <X>126</X>
-            <Y>449</Y>
+            <X>156</X>
+            <Y>641</Y>
           </Origin>
           <Location>
-            <X>126</X>
-            <Y>449</Y>
+            <X>156</X>
+            <Y>641</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -279,12 +297,12 @@
         </HmiObject>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text5" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Индикатор сброса данных" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>68</X>
-            <Y>308</Y>
+            <X>37</X>
+            <Y>559</Y>
           </Origin>
           <Location>
-            <X>68</X>
-            <Y>308</Y>
+            <X>37</X>
+            <Y>559</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -308,12 +326,12 @@
         </HmiObject>
         <HmiObject xsi:type="HmiText" Rotation="0" ID="Text6" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Индикатор работы датчика" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
           <Origin>
-            <X>431</X>
-            <Y>310</Y>
+            <X>453</X>
+            <Y>552</Y>
           </Origin>
           <Location>
-            <X>431</X>
-            <Y>310</Y>
+            <X>453</X>
+            <Y>552</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -334,6 +352,48 @@
             <Width>334.99999999999994</Width>
             <Height>40</Height>
           </Size>
+        </HmiObject>
+        <HmiObject xsi:type="ListBox" Rotation="0" ID="SymbolList1" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" SourceType="DataVariable" HorizontalLineColor="#FF000000" HorizontalLineWidth="1" ScrollBarMode="Hide" SelectionBehavior="Always" ScrollEnabled="true" SelectEnabled="true">
+          <Origin>
+            <X>47</X>
+            <Y>41</Y>
+          </Origin>
+          <Location>
+            <X>47</X>
+            <Y>41</Y>
+          </Location>
+          <TransformCenter>
+            <X>0</X>
+            <Y>0</Y>
+          </TransformCenter>
+          <EnableSecurityScope>Always</EnableSecurityScope>
+          <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
+          <EnableSecurityScopeLevel>0</EnableSecurityScopeLevel>
+          <VisibleSecurityScope>Always</VisibleSecurityScope>
+          <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
+          <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
+          <Fill xsi:type="SolidFill" Color="#FFD3D3D3" />
+          <DashStyle>
+            <Offset>0</Offset>
+            <Dashes />
+          </DashStyle>
+          <Size>
+            <Width>638.0000000000002</Width>
+            <Height>279</Height>
+          </Size>
+          <VariableInstance>
+            <Name>MyArrayOfStruct</Name>
+          </VariableInstance>
+          <Padding>0</Padding>
+          <HorizontalScroll>false</HorizontalScroll>
+          <VerticalScroll>false</VerticalScroll>
+          <Direction>Vertical</Direction>
+          <SymbolId>5aac9a7c-16ba-48b0-b728-27152a308ffe</SymbolId>
+          <Parameters>
+            <Parameter xsi:type="ParameterBindingField" ParameterID="f033652a-520d-4f4c-8b50-034cb0059bb7" Source="Position_CM" />
+            <Parameter xsi:type="ParameterBindingField" ParameterID="be2f3738-54e3-4700-9e38-12d24314e620" Source="Cell_status" />
+            <Parameter xsi:type="ParameterBindingField" ParameterID="ba02f758-e748-4cdf-8571-b09cf8b06b20" Source="Recording_time" />
+          </Parameters>
         </HmiObject>
       </Objects>
     </Layer>

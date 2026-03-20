@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Metadata>
+   <FolderType>PouFolder</FolderType>
+   <ContentType>Function</ContentType>
+   <Kind>Function</Kind>
+   <ReturnType>STRING</ReturnType>
+   <Usings></Usings>
+   <Id>5753333e-b34b-4748-a462-ebdbee6452c2</Id>
+   <ItemGroup>
+      <VariableWorksheet>
+         <Id>8f25af93-1f38-4a9c-9e8b-13c788e804b5</Id>
+      </VariableWorksheet>
+      <CodeWorksheet Include="Code.st">
+         <Id>8cf6a5c1-2a22-4370-8528-67fb8c5394ce</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>0</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+</Metadata>

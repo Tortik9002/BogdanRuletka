@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <HmiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" IsLocalInitialized="false" IsShowGrid="false" IsSnapToGrid="false" SnapToGridCellSize="50" SnapToGridLineColor="Fuchsia" GeneratorRunCounter="0">
   <Name>HMI Configuration</Name>
-  <RecentlyUsedColors />
+  <RecentlyUsedColors>
+    <Color>
+      <A>255</A>
+      <R>165</R>
+      <G>42</G>
+      <B>42</B>
+      <ScA>1</ScA>
+      <ScR>0.37626216</ScR>
+      <ScG>0.023153368</ScG>
+      <ScB>0.023153368</ScB>
+    </Color>
+    <Color>
+      <A>255</A>
+      <R>229</R>
+      <G>11</G>
+      <B>11</B>
+      <ScA>1</ScA>
+      <ScR>0.7835378</ScR>
+      <ScG>0.0033465358</ScG>
+      <ScB>0.0033465358</ScB>
+    </Color>
+  </RecentlyUsedColors>
   <RecentlyUsedGradients />
   <ImageLocation>C:\Users\Богдан\Pictures</ImageLocation>
   <HmiSupportLocation>C:\Users\Богдан\Documents</HmiSupportLocation>

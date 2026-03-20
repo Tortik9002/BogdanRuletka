@@ -127,6 +127,26 @@
         <file name="Definition.hmipagedef.locres" id="Page.hmip~Definition~0001.locres" />
       </folder>
       <file name="GeneratedDataTypes.dt" id="Logical E~GeneratedD~0000.dt" />
+      <file name="MyDatetipe.dt" id="Logical E~MyDatetipe~0000.dt" />
+      <folder name="HMI Symbol.hmisymbol">
+        <file name="Variables.hmivar" id="HMI Symbol~Variables~0000.hmivar" />
+        <file name="VersionHistory.usermeta" id="HMI Symbo~VersionHis~0000.usermeta" />
+        <file name="Description.en.html" id="HMI Symbo~Descriptio~0000.html" />
+        <file name="Definition.locres" id="HMI Symbo~Definition~0000.locres" />
+        <file name="Definition" id="HMI Symbo~Definition~0001" />
+        <file name="Parameters" id="HMI Symbo~Parameters~0000" />
+        <file name="Thumbnail" id="HMI Symbol~Thumbnail~0000" />
+      </folder>
+      <folder name="Date_Time_convert.pou">
+        <file name="Metadata.meta" id="Date_Time_c~Metadata~0000.meta" />
+        <file name="Variables.var" id="Date_Time_~Variables~0000.var" />
+        <file name="VersionHistory.usermeta" id="Date_Time~VersionHis~0000.usermeta" />
+        <file name="Description.html" id="Date_Time~Descriptio~0000.html" />
+        <file name="Description.rtf" id="Date_Time~Descriptio~0001.rtf" />
+        <file name="Code.st" id="Date_Time_conve~Code~0000.st" />
+        <file name="User.locres" id="Date_Time_conve~User~0000.locres" />
+        <file name="Variables.var.locres" id="Date_Time~Variables.~0000.locres" />
+      </folder>
     </folder>
     <folder name="RecycleBin">
       <folder name="1ffd36b0-ec32-466b-8665-84cee7e0c47d">
@@ -142,6 +162,9 @@
           <file name="d0697ce0-6615-4483-8d76-b4f518923738.L7_ax_AXLF_Master.station" id="AXC_F_215~d0697ce0-6~000e.station" />
         </folder>
       </folder>
+    </folder>
+    <folder name="Watch Window">
+      <file name="Document.ww" id="Watch Windo~Document~0000.ww" />
     </folder>
   </folder>
 </content>
