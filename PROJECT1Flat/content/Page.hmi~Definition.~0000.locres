@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NextResourceID>113</NextResourceID>
+  <NextResourceID>119</NextResourceID>
   <Languages ID="0" Name="Default" />
   <Resources ID="102" Name="Text2.Text">
     <Values LanguageID="0" LocalValue="Text" />
@@ -9,18 +9,30 @@
     <Values LanguageID="0" LocalValue="Text" />
   </Resources>
   <Resources ID="107" Name="Text3.Text">
-    <Values LanguageID="0" LocalValue="Значение расстояния в импульсах" />
+    <Values LanguageID="0" LocalValue="Текущее значение датчика\nв импульсах:" />
   </Resources>
   <Resources ID="108" Name="Text4.Text">
-    <Values LanguageID="0" LocalValue="Значение расстояния в сантиметрах" />
+    <Values LanguageID="0" LocalValue="Текущее измерение в см:" />
   </Resources>
   <Resources ID="109" Name="Button1.Text">
-    <Values LanguageID="0" LocalValue="Сброс" />
+    <Values LanguageID="0" LocalValue="Сброс текущего\nзначения  датчика" />
   </Resources>
   <Resources ID="110" Name="Text5.Text">
-    <Values LanguageID="0" LocalValue="Индикатор сброса данных" />
+    <Values LanguageID="0" LocalValue="Индикатор сброса данных:" />
   </Resources>
   <Resources ID="111" Name="Text6.Text">
-    <Values LanguageID="0" LocalValue="Индикатор работы датчика" />
+    <Values LanguageID="0" LocalValue="Статус датчика:" />
+  </Resources>
+  <Resources ID="113" Name="Text7.Text">
+    <Values LanguageID="0" LocalValue="Текущее значение\nдиаметра вала:" />
+  </Resources>
+  <Resources ID="116" Name="TextInput1.Text">
+    <Values LanguageID="0" LocalValue="Text Input" />
+  </Resources>
+  <Resources ID="117" Name="Text8.Text">
+    <Values LanguageID="0" LocalValue="Электронная рулетка" />
+  </Resources>
+  <Resources ID="118" Name="Text9.Text">
+    <Values LanguageID="0" LocalValue="Диаметр вала в см:" />
   </Resources>
 </ResourcesDocument>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Symbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="HMI Symbol">
   <Objects>
-    <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+    <HmiObject xsi:type="HmiText" Rotation="0" ID="Text1" IsTabSelectable="true" TabOrder="0" IsObjectLocked="true" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Center" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
       <Origin>
         <X>4</X>
         <Y>6</Y>
@@ -14,7 +14,7 @@
         <X>0</X>
         <Y>0</Y>
       </TransformCenter>
-      <Dynamic xsi:type="TextDynamic" TargetProperty="Text">
+      <Dynamic xsi:type="TextDynamic" Format="fixed3" TargetProperty="Text">
         <VariableInstance>
           <Name>Position_CM</Name>
         </VariableInstance>
@@ -38,7 +38,7 @@
         <Height>40</Height>
       </Size>
     </HmiObject>
-    <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
+    <HmiObject xsi:type="HmiText" Rotation="0" ID="Text2" IsTabSelectable="true" TabOrder="0" IsObjectLocked="true" LineColor="#FFCCD0D2" LineWidth="0" Text="Text" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextWrapping="WrapWithOverflow">
       <Origin>
         <X>256</X>
         <Y>3</Y>
@@ -75,18 +75,18 @@
         <Height>40</Height>
       </Size>
     </HmiObject>
-    <HmiObject xsi:type="CheckBox" Rotation="0" ID="CheckBox1" IsTabSelectable="true" TabOrder="0" LineColor="#FFA52A2A" LineWidth="0" Text="" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextPlacement="Right">
+    <HmiObject xsi:type="CheckBox" Rotation="0" ID="CheckBox2" IsTabSelectable="false" TabOrder="0" LineColor="#FF90EE90" LineWidth="1" Text="Запомнить" FontFamily="Arial" FontSize="48" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="TopToBottom" HorizontalTextAlignment="Left" VerticalTextAlignment="Top" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" TextPlacement="Right">
       <Origin>
-        <X>907</X>
-        <Y>1002</Y>
+        <X>31.432432432432414</X>
+        <Y>62.000000000000014</Y>
       </Origin>
       <Location>
-        <X>-93</X>
-        <Y>2</Y>
+        <X>-1</X>
+        <Y>1</Y>
       </Location>
       <TransformCenter>
-        <X>1000</X>
-        <Y>1000</Y>
+        <X>32.432432432432414</X>
+        <Y>61.000000000000014</Y>
       </TransformCenter>
       <EnableSecurityScope>Always</EnableSecurityScope>
       <EnableSecurityScopeOperator>Equal</EnableSecurityScopeOperator>
@@ -94,22 +94,19 @@
       <VisibleSecurityScope>Always</VisibleSecurityScope>
       <VisibleSecurityScopeOperator>Equal</VisibleSecurityScopeOperator>
       <VisibleSecurityScopeLevel>0</VisibleSecurityScopeLevel>
-      <Fill xsi:type="SolidFill" Color="#FF90EE90" />
+      <Fill xsi:type="SolidFill" Color="#FF3E3D40" />
       <DashStyle>
-        <Offset>43</Offset>
-        <Dashes>
-          <double>2</double>
-          <double>2</double>
-        </Dashes>
+        <Offset>21</Offset>
+        <Dashes />
       </DashStyle>
       <Size>
-        <Width>49</Width>
-        <Height>46</Height>
+        <Width>47.99999999999998</Width>
+        <Height>48.000000000000014</Height>
       </Size>
       <VariableInstance>
         <Name>ON_OFF_Zapiss</Name>
       </VariableInstance>
-      <BoxBackgroundFill xsi:type="SolidFill" Color="#FFECEDED" />
+      <BoxBackgroundFill xsi:type="SolidFill" Color="#FFADD8E6" />
     </HmiObject>
   </Objects>
 </Symbol>

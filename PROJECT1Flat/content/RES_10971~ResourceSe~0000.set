@@ -5,15 +5,14 @@ RESOURCE IEC 61131-3
     Name := 'RES_109718FC645348A0A040A10CD4325DC7',
     Parent := ( Name := 'AXCF2152', Version := '2024.0.0'), 
     UpdateType := 'Manual',
-    FilesIni := 
-    [
-    ],
-    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
     DownloadFiles := 
     [
     ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
     CommunicationType := 'TcpIp',
-    CommunicationParameters := 'DLL socomm.dll -ip192.168.4.222 -p41100 -to2000',
+    FilesIni := 
+    [
+    ],
     DeviceDescription := 
     (
         MaxProgramSize := '8388608',
@@ -21,6 +20,16 @@ RESOURCE IEC 61131-3
         MaxRetainDataSize := '0',
         MaxTaskPriority := '96',
         Endianness := 'LittleEndian'
+    ),
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.4.222 -p41100 -to2000',
+    SimulationMode :=
+    (
+        DownloadFiles := 
+        [
+        ],
+        FilesIni := 
+        [
+        ]
     )
 )}
 

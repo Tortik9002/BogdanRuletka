@@ -211,6 +211,7 @@
       </Folder>
       <Folder Include="Watch Window">
          <Id>b9b58606-97d7-472f-845a-fec41705ae11</Id>
+         <FolderType></FolderType>
          <ParentIndex>4</ParentIndex>
       </Folder>
       <Folder Include="Logical Elements\Date_Time_convert.pou">

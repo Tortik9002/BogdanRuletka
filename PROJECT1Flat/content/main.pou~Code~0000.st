@@ -1,4 +1,8 @@
-Position_CM := func_1_Position_INC1 / 94;   // пересчёт импульсов в см
+//Position_CM := REAL := TO_REAL(ANY_ELEMENTARY (* IN *));func_1_Position_INC1 / 94;   // пересчёт импульсов в см
+
+//Position_CM := func_1_Position_INC1 / ( 1450 / (Pi * Diametr_vala));
+Position_CM := (Pi * Diametr_vala * TO_REAL (func_1_Position_INC1)) / 1450.0;
+
 // 3. В первую позицию записываем текущее значение
     MyArrayOfStruct[0].Position_CM := Position_CM;
     
