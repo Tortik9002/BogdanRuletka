@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SymbolParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Parameters Name="Position_CM" Id="f033652a-520d-4f4c-8b50-034cb0059bb7" Type="Number" Comment="" />
+  <Parameters Name="ON_OFF_Zapiss" Id="be2f3738-54e3-4700-9e38-12d24314e620" Type="Bool" Comment="" />
+  <Parameters Name="Date_Time" Id="ba02f758-e748-4cdf-8571-b09cf8b06b20" Type="String" Comment="" />
+</SymbolParameters>

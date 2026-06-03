@@ -1,0 +1,12 @@
+    Date_time:= TO_STRING(RTC.DAY , '{0:D2}' );
+    Date_time:= CONCAT(Date_time, '.'); 
+    Date_time:= CONCAT(Date_time, TO_STRING(RTC.MONTH , '{0:D2}' ));
+    Date_time:= CONCAT(Date_time, '.'); 
+    Date_time:= CONCAT(Date_time, TO_STRING(RTC.YEAR , '{0:d}' ));
+    Date_time:= CONCAT(Date_time, ' ');
+    Date_time:= CONCAT(Date_time, TO_STRING(RTC.HOURS , '{0:D2}' )); 
+    Date_time:= CONCAT(Date_time, '.');
+    Date_time:= CONCAT(Date_time, TO_STRING(RTC.MINUTES , '{0:D2}' )); 
+    Date_time:= CONCAT(Date_time, '.');
+    Date_time:= CONCAT(Date_time, TO_STRING(RTC.SECONDS , '{0:D2}' ));
+    Date_Time_convert:= Date_time; //это объязательно для возврата значений из функции
