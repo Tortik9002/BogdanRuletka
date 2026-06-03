@@ -127,12 +127,12 @@
         </HmiObject>
         <HmiObject xsi:type="Rectangle" Rotation="0" ID="Shape3" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square">
           <Origin>
-            <X>488</X>
-            <Y>131</Y>
+            <X>502</X>
+            <Y>134</Y>
           </Origin>
           <Location>
-            <X>488</X>
-            <Y>131</Y>
+            <X>502</X>
+            <Y>134</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
@@ -398,12 +398,12 @@
         </HmiObject>
         <HmiObject xsi:type="ListBox" Rotation="0" ID="SymbolList1" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" SourceType="DataVariable" HorizontalLineColor="#FF000000" HorizontalLineWidth="1" ScrollBarMode="Hide" SelectionBehavior="Always" ScrollEnabled="true" SelectEnabled="true">
           <Origin>
-            <X>1012</X>
-            <Y>416</Y>
+            <X>688</X>
+            <Y>397</Y>
           </Origin>
           <Location>
-            <X>1012</X>
-            <Y>416</Y>
+            <X>688</X>
+            <Y>397</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
