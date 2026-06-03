@@ -111,13 +111,6 @@
         <file name="TemplateOverview.htm" id="HelpTempl~TemplateOv~0001.htm" />
       </folder>
       <folder name="main.pou">
-        <file name="Metadata.meta" id="main.pou~Metadata~0000.meta" />
-        <file name="Variables.var" id="main.pou~Variables~0000.var" />
-        <file name="VersionHistory.usermeta" id="main.pou~VersionHist~0000.usermeta" />
-        <file name="Description.html" id="main.pou~Description~0000.html" />
-        <file name="Description.rtf" id="main.pou~Description~0001.rtf" />
-        <file name="Variables.var.locres" id="main.pou~Variables.v~0000.locres" />
-        <file name="User.locres" id="main.pou~User~0000.locres" />
         <file name="Code.st" id="main.pou~Code~0000.st" />
       </folder>
       <folder name="Page.hmipagetemplate">

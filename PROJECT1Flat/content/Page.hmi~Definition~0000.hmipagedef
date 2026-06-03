@@ -398,12 +398,12 @@
         </HmiObject>
         <HmiObject xsi:type="ListBox" Rotation="0" ID="SymbolList1" IsTabSelectable="false" TabOrder="0" LineColor="#FFCCD0D2" LineWidth="1" FontFamily="Arial" FontSize="18" FontStyle="normal" FontWeight="400" FontColor="#FF3E3D40" IsTextWrapping="false" TextDirection="LeftToRight" HorizontalTextAlignment="Left" GuiStyle="Flat" TextMarginTop="0" TextMarginBottom="0" TextMarginLeft="0" TextMarginRight="0" EndCapType="Square" SourceType="DataVariable" HorizontalLineColor="#FF000000" HorizontalLineWidth="1" ScrollBarMode="Hide" SelectionBehavior="Always" ScrollEnabled="true" SelectEnabled="true">
           <Origin>
-            <X>643</X>
-            <Y>397</Y>
+            <X>1012</X>
+            <Y>416</Y>
           </Origin>
           <Location>
-            <X>643</X>
-            <Y>397</Y>
+            <X>1012</X>
+            <Y>416</Y>
           </Location>
           <TransformCenter>
             <X>0</X>
